@@ -222,6 +222,40 @@ class DNAProfile:
         
         self.revive = Gene("revive", enabled=False, points=0)
         # 💚 Revive: Can resurrect dead allies (Future cooperative feature)
+        
+        # ===== ECONOMIC GENES: Dot AI 3.0 Trading Capabilities =====
+        # What economic advantages does the dot have?
+        
+        self.buy_power = Gene("buy_power", enabled=False, points=0)
+        # 💰 Buy Power: Purchasing negotiation skill (get discounts)
+        # Each point = 0.5% discount (max 50 points = 25% discount)
+        # Trader specialization - efficient resource acquisition
+        
+        self.sell_power = Gene("sell_power", enabled=False, points=0)
+        # 💵 Sell Power: Sales negotiation skill (get premiums)
+        # Each point = 0.6% premium (max 50 points = 30% premium)
+        # Trader specialization - maximize revenue
+        
+        self.gather_speed = Gene("gather_speed", enabled=False, points=0)
+        # 🔨 Gather Speed: Resource collection efficiency
+        # Each point = 2% faster gathering (max 50 points = 100% faster)
+        # First-mover advantage - get scarce resources before others
+        
+        self.hold_power = Gene("hold_power", enabled=False, points=0)
+        # 🏦 Hold Power: Saving/investment capability (earn interest)
+        # Each point = 0.01% interest per second (max 50 points = 0.5%/sec)
+        # Investor specialization - passive income generation
+        
+        self.max_wallet = Gene("max_wallet", enabled=False, points=0)
+        # 💼 Max Wallet: Wallet storage capacity bonus
+        # Each point = +10 wallet capacity (max 50 points = +500 capacity)
+        # Investor specialization - accumulate large capital reserves
+        
+        self.market_visibility = Gene("market_visibility", enabled=False, points=0)
+        # 📊 Market Visibility: Information advantage (see supply data)
+        # Threshold: 5+ points = access global commodity counts
+        # Trader advantage - anticipate price spikes before they happen
+        # Higher points = better market analysis capabilities
     
     def get_all_genes(self):
         """

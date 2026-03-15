@@ -1,6 +1,7 @@
 # 🌍 Dot AI 3.0: Economic Simulation - Project Plan
 
 **Date Created:** January 9, 2026  
+**Last Updated:** March 14, 2026  
 **Status:** Planning Phase  
 **Evolution:** Dot AI 2.0 (Combat/Survival) → Dot AI 3.0 (Economic Ecosystem)
 
@@ -8,12 +9,99 @@
 
 ## 🎯 Vision Statement
 
-**Dot AI 3.0** transforms the survival simulation into an **economic ecosystem** where dots compete through commerce, not combat. Instead of fighting for food, dots will **buy, sell, hold, and merge** in a dynamic market economy. Success is measured by wealth accumulation, credit scores, and strategic mergers rather than combat victories.
+**Dot AI 3.0** transforms the survival simulation into a **hybrid combat-economic ecosystem** where dots compete through BOTH violence AND commerce. Dots can **kill for wallets, trade peacefully, hoard resources, or manipulate markets** in a finite resource environment. Success is measured by **longevity of life, quality of life (peaceful vs violent), and net worth** - in that order.
 
 **Core Philosophy:**
 - Same AI principles (DNA-based evolution, utility-driven decisions)
-- Different survival mechanics (economic instead of physical)
-- New emergent behaviors (market strategies, trading patterns, economic niches)
+- **Hybrid survival mechanics** (combat exists PLUS economics layer)
+- **Finite scarcity** (resources deplete permanently, no respawn)
+- **Moral experiment**: Will dots choose civil economics or criminal violence when resources are scarce and wallets are lootable?
+- New emergent behaviors (market timing, theft, hoarding, stimulus-driven inflation)
+
+**The Dark Question:** Does a micro-economy with lootable wallets **increase murder rates?** Will artificial life choose cooperation or predation in resource collapse?
+
+---
+
+## ⚡ KEY CHANGES (Updated March 14, 2026)
+
+### **🔥 MAJOR DEPARTURES FROM ORIGINAL PLAN**
+
+**1. COMBAT STAYS (Not pure economic)**
+- ❌ ~~"No Physical Combat"~~ 
+- ✅ **Hybrid Combat + Economics** - dots can BOTH fight AND trade
+- 💀 **Wallet Looting:** Kill → Steal 100% of victim's wallet
+- **Why:** Test if lootable wealth increases violence vs Dot AI 2.0 baseline
+
+**2. FINITE RESOURCES (Not renewable) + REALISTIC PRICING**
+- ❌ ~~Respawning commodities~~
+- ✅ **Zero respawn** - all resources pre-loaded, deplete permanently
+- 🥇 **5-Tier Metal Hierarchy:** Scrap (200) → Iron (80) → Bronze (30) → Silver (10) → Gold (3)
+- 💰 **Realistic commodity pricing:** Prices scaled from real-world metric ton values
+  - Scrap: $200/ton → $0.20 base
+  - Cast Iron: $500/ton → $0.50 base
+  - Bronze: $8,000/ton → $8.00 base
+  - Silver: $700,000/ton → $700 base
+  - Gold: $60,000,000/ton → $60,000 base
+  - **Result:** Gold is 300,000x more valuable than scrap (realistic differentiation!)
+- 🌍 **World resource caps:** Simulation quantities scaled to Earth's actual raw material estimates
+- **Why:** Prevent waiting-pattern exploitation, force scarcity-driven urgency, create intuitive value understanding
+
+**3. STIMULUS PAYMENTS (New mechanic) - SCALED TO REALISTIC PRICES**
+- ✅ **Universal Basic Income** - periodic cash for being alive
+- 💵 **Role-based:** Traders ($0.10/20sec), Investors ($0.50/100sec), Generalists ($0.20/40sec)
+- 📈 **Inflation dynamics:** Money supply grows → prices rise
+- **Note:** Stimulus values scaled down to match realistic commodity prices
+- **Why:** Test monetary policy impact, create wealth without production
+
+**4. QUALITY OF LIFE TRACKING (New fitness dimension)**
+- ✅ **QoL Score** = avg_health × (1 - attack_frequency) × peaceful_ratio
+- 🏆 **3-Tier Champion Selection:** Lifetime > QoL > Net Worth
+- **Why:** Penalize violent lives, reward peaceful prosperity
+
+**5. DATA EXPORT FOR ANALYSIS (New infrastructure)**
+- ✅ **CSV/JSON exports:** Transactions, prices, violence, wealth snapshots, behavior patterns
+- 📊 **External analysis:** Load into data tools for economic research
+- **Why:** User wants to analyze dot economy as mini-research project
+
+**6. DNA INSIGHT SYSTEM (New social intelligence layer)**
+- 🧠 **Social perception:** Some dots can "research" other dots' backgrounds
+- 👁️ **Reveals:** Combat tendency, wealth patterns, past violence, behavior classification
+- ❌ **Hides:** Active thoughts, wallet contents, current intentions
+- 🤝 **Bribery mechanic:** Pay off aggressive dots to avoid combat
+- 📊 **Behavior archetypes:** Dots classified as "Lawful Merchant", "Violent Raider", "Desperate Survivor", etc.
+- 🎭 **Motive tracking:** "Primitive" (survival instinct) vs "Calculated" (strategic planning)
+- 💸 **Visible wealth:** Recent spending displayed, not true net worth (true wealth revealed only on death)
+- **Why:** Create sophisticated social dynamics, enable peaceful conflict resolution, track intelligence evolution
+
+### **🎯 THE EXPERIMENT**
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│  HYPOTHESIS: Lootable Wallets → Increased Violence          │
+│                                                              │
+│  Setup:                                                      │
+│    • Finite resources (scarcity pressure)                   │
+│    • Combat can steal wallets (instant wealth)              │
+│    • Trade is slower but sustainable                        │
+│    • QoL tracking penalizes violence in fitness             │
+│                                                              │
+│  Question:                                                   │
+│    Will dots evolve to:                                     │
+│      A) Peaceful trade (civil economics)                    │
+│      B) Violent theft (criminal activity)                   │
+│      C) Hybrid strategies                                   │
+│                                                              │
+│  Prediction:                                                 │
+│    Violence increases when:                                 │
+│      • Wealth inequality high (rich targets)                │
+│      • Resources scarce (desperation)                       │
+│      • Stimulus creates inflation (devalued currency)       │
+│                                                              │
+│  Counter-pressure:                                           │
+│    QoL selection favors peaceful dots over robbers          │
+│    → Evolutionary arms race between strategies              │
+└──────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -23,90 +111,231 @@
 
 **Key Innovation:** Resources serve **dual purposes** - survival AND trade. Dots must decide: *consume or sell?* This creates emergent economic strategy where survival needs compete with wealth accumulation.
 
-| **Dot AI 2.0 (Combat)**          | **Dot AI 3.0 (Economic)**                    |
+| **Dot AI 2.0 (Combat)**          | **Dot AI 3.0 (Hybrid Combat+Economics)**     |
 |----------------------------------|----------------------------------------------|
 | **Food**                         | **Food** (eat for energy OR sell for money)  |
 | **Energy**                       | **Energy** (survival) + **Wallet** (money)   |
-| **Health**                       | **Health** (survival capacity = bank size)   |
-| **Attack Action**                | **Buy Action** (acquire resources)           |
-| **Defend Action**                | **Hold Action** (save/invest)                |
-| **Replicate (Reproduce)**        | **Merge & Acquire** (M&A)                    |
-| **Seek Food**                    | **Seek Resources** (survival + trade)        |
-| **Combat Range**                 | **Trading Reach**                            |
-| **Starvation Death**             | **Starvation** (no energy) OR **Bankruptcy** |
-| **Death → Food Conversion**      | **Death → Asset Liquidation** (inventory drops) |
-| **Damage/Combat**                | **Price Negotiation**                        |
-| **Offspring (Sexual/Asexual)**   | **Merged Companies** (two dots combine)      |
-| **DNA Budget (fixed)**           | **DNA Budget** (expandable via purchases!)   |
+| **Health**                       | **Health** (survival) + **QoL Score** (peaceful life quality) |
+| **Attack Action**                | **Attack** (kill for wallet) + **Buy Action** (peaceful trade) |
+| **Defend Action**                | **Defend** (combat) + **Hold Action** (save/invest) |
+| **Replicate (Reproduce)**        | **Merge & Acquire** (M&A economic union)     |
+| **Seek Food**                    | **Gather Resources** (finite commodities)    |
+| **Combat Range**                 | **Combat Range** + **Trading Reach**         |
+| **Starvation Death**             | **Starvation** OR **Bankruptcy** OR **Combat Death** |
+| **Death → Food Conversion**      | **Death → Wallet Stolen + Inventory Dropped** |
+| **Damage/Combat**                | **Physical Damage** + **Wallet Theft** + **Price Negotiation** |
+| **Offspring (Sexual/Asexual)**   | **Sexual/Asexual** + **Economic Mergers**    |
+| **DNA Budget (fixed)**           | **DNA Budget** (100 base, expandable via purchases!) |
 
 ### **💡 The Economic-Survival Loop**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  GATHER FOOD → Decide: EAT or SELL?                     │
-│                                                          │
-│  ┌──────────┐              ┌─────────────┐              │
-│  │   EAT    │              │    SELL     │              │
-│  └────┬─────┘              └──────┬──────┘              │
-│       │                           │                     │
-│       ▼                           ▼                     │
-│  +Energy (survive)           +Money (wealth)            │
-│                                   │                     │
-│                                   ▼                     │
-│                        BUY UPGRADES (DNA, memory)       │
-│                                   │                     │
-│                                   ▼                     │
-│                        STRONGER ABILITIES               │
-│                                   │                     │
-│                                   ▼                     │
-│                        GATHER MORE EFFICIENTLY          │
-└─────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────┐
+│  FINITE RESOURCES → Decide: EAT, SELL, or HOARD?                │
+│                                                                  │
+│  ┌──────────┐    ┌─────────────┐    ┌──────────────┐           │
+│  │   EAT    │    │    SELL     │    │  HOARD/WAIT  │           │
+│  └────┬─────┘    └──────┬──────┘    └──────┬───────┘           │
+│       │                 │                   │                    │
+│       ▼                 ▼                   ▼                    │
+│  +Energy           +Money             Wait for prices           │
+│  (survive)         (wealth)           to spike (scarcity)       │
+│                        │                   │                    │
+│                        ├───────────────────┘                    │
+│                        ▼                                         │
+│           Choice: BUY UPGRADES or ATTACK RICH DOTS?             │
+│                        │                                         │
+│            ┌───────────┴────────────┐                           │
+│            ▼                        ▼                            │
+│    BUY DNA/MEMORY              KILL & STEAL                     │
+│    (expensive, peaceful)       (free, violent)                  │
+│            │                        │                            │
+│            ▼                        ▼                            │
+│    STRONGER from               RICHER from                      │
+│    upgrades                    looted wallets                   │
+│            │                        │                            │
+│            └────────┬───────────────┘                           │
+│                     ▼                                            │
+│         GATHER/TRADE MORE EFFICIENTLY                           │
+│         (but resources FINITE - scarcity grows)                 │
+│                     │                                            │
+│                     ▼                                            │
+│         STIMULUS PAYMENTS (role-based UBI)                      │
+│         keep money flowing → INFLATION                          │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
 **Strategic Tension:**
 - **Survival First:** Starving dots must eat, can't build wealth
 - **Wealth Building:** Well-fed dots can sell food for upgrades
-- **Investment Payoff:** Upgraded dots gather resources faster
-- **Market Dynamics:** If everyone hoards food, prices skyrocket
+- **Violence vs Trade:** Kill rich dot (instant wealth) vs trade peacefully (slower but sustainable)
+- **Hoarding Dilemma:** Hold resources for price spike vs sell now for liquidity
+- **Finite Scarcity:** Resources never respawn → prices rise exponentially as supply → 0
+- **Stimulus Inflation:** Free money injections → price increases → purchasing power erodes
+- **Quality of Life Trade-off:** Violent life (attacked often, low QoL) vs peaceful life (better fitness score)
 
-### **🏦 Commodity-Focused Economy (No Physical Combat)**
+### **� Strategic Decision Tree (Visual Guide)**
 
-**Key Design Decision:** Dots compete through **economic warfare**, not physical combat. All conflict happens "on paper" through market manipulation, resource hoarding, and strategic trading.
+```
+DOT FINDS RESOURCE (Food/Metal)
+         │
+         ├─── Energy < 30%? ──YES──> EAT (survival priority)
+         │
+         └─── Energy > 30% ───────────┐
+                                      │
+                      ┌───────────────┴───────────────┐
+                      │                               │
+                   OPTION A:                      OPTION B:
+                   SELL NOW                       HOARD & WAIT
+                   (immediate $)                  (future profit)
+                      │                               │
+                ┌─────┴─────┐                   ┌─────┴─────┐
+                │           │                   │           │
+           Use $ for:   Use $ for:         Wait for       Sell at
+           TRADING      UPGRADES           scarcity       PEAK PRICE
+                │           │                   │              │
+                ▼           ▼                   ▼              ▼
+           Buy/Sell    +DNA points        Price↑500%    Massive profit
+           cycle       (permanent)         
 
-**Commodity Categories:**
+
+DOT SEES RICH TARGET (High Wallet)
+         │
+         ├─── Attack Gene > 0? ──NO──> Must trade peacefully
+         │
+         └─── Attack Gene > 0 ──YES────┐
+                                       │
+                       ┌───────────────┴────────────────┐
+                       │                                │
+                   OPTION A:                        OPTION B:
+                   ATTACK & STEAL                   TRADE PEACEFULLY
+                   (violent)                        (civil)
+                       │                                │
+              ┌────────┴────────┐            ┌──────────┴──────────┐
+              │                 │            │                     │
+         High reward       High risk    Build trust          Slow wealth
+         +$500 instant    Combat death  Reputation+         accumulation
+         QoL↓↓↓           50% chance    QoL↑↑↑             Sustainable
+              │                 │            │                     │
+              ▼                 ▼            ▼                     ▼
+         Rich criminal     Dead robber   Peaceful merchant   Long survivor
+
+
+GENERATION ENDS - Champion Selection
+         │
+         ├─── PRIMARY: Longest lifetime? ───────> Champion!
+         │
+         ├─── TIE: Higher QoL score? ───────────> Peaceful wins!
+         │
+         └─── TIE: Higher net worth? ───────────> Richest wins!
+
+```
+
+**Key Insight:** The system creates an **evolutionary arms race** between:
+- **Violent strategies** (high immediate reward, low QoL, risky)
+- **Peaceful strategies** (low immediate reward, high QoL, safe)
+- **Hybrid strategies** (opportunistic violence when profitable, trading otherwise)
+
+**The Question:** Over many generations, which strategy survives longest in finite resource collapse?
+
+---
+
+### **�🏦 Finite Resource Economy (WITH Physical Combat)**
+
+**Key Design Decision:** Dots compete through **BOTH economic strategy AND violent theft**. Conflict happens through market manipulation, resource hoarding, strategic trading, AND **killing for wallets**.
+
+**💀 WALLET LOOTING MECHANIC:**
+- **Attacker steals 100% of victim's wallet on kill**
+- **Inventory drops to ground** (first-come-first-serve looting)
+- **Creates moral choice:** Peaceful trade (sustainable) vs violent robbery (profitable but risky)
+- **Experiment:** Does lootable wealth increase murder rate compared to Dot AI 2.0?
+
+**Commodity Categories (FINITE - NO RESPAWN):**
 
 1. **Food (3 types - survival need with different nutritional values)**
-   - **Grain:** Low nutrition (+20 energy), high spawn rate, cheap ($10)
-   - **Fruit:** Medium nutrition (+35 energy), moderate spawn, medium price ($18)
-   - **Meat:** High nutrition (+50 energy), rare spawn, expensive ($30)
+   - **Grain 🌾:** Low nutrition (+20 energy), start with 20 items
+   - **Fruit 🍎:** Medium nutrition (+35 energy), start with 20 items
+   - **Meat 🍖:** High nutrition (+50 energy), start with 10 items
+   - **FINITE:** Once consumed/sold, GONE FOREVER
    
-2. **Precious Metals (pure value storage)**
-   - **Silver:** Stable value storage, low volatility ($40)
-   - **Gold:** Premium value storage, crisis hedge ($80)
+2. **Precious Metals (5-tier hierarchy - REALISTIC PRICING)**
+   - **🔩 Scrap Metal (Recycled Steel):** 
+     - Real price: ~$200/metric ton → **$0.20 base** (scaled x0.001)
+     - World supply: ~1.9 billion metric tons → **200 items** in simulation
+   - **⚙️ Cast Iron:**
+     - Real price: ~$500/metric ton → **$0.50 base**
+     - World supply: ~1.3 billion metric tons → **80 items** in simulation
+   - **🥉 Bronze (Copper alloy):**
+     - Real price: ~$8,000/metric ton → **$8.00 base**
+     - World supply: ~700 million metric tons → **30 items** in simulation
+   - **🥈 Silver:**
+     - Real price: ~$700,000/metric ton → **$700 base**
+     - World supply: ~570,000 metric tons → **10 items** in simulation
+   - **🥇 Gold:**
+     - Real price: ~$60,000,000/metric ton → **$60,000 base**
+     - World supply: ~200,000 metric tons → **3 items** in simulation
+   - **REALISTIC SCARCITY:** Simulation caps mirror actual Earth resource depletion
+   - **Value differentiation:** Dots intuitively understand gold >> silver >> bronze >> iron
+   - **Prevents waiting exploit:** No spawn patterns to game
    
-3. **Lifestyle Goods (demand tied to population/activity)**
-   - **Clothing:** Demand scales linearly with population ($15)
-   - **Paper:** Complex recycling mechanics (demand cycles) ($12)
+   **Scaling Notes:**
+   - Simulation uses 1:1,000,000 scale (1 million metric tons = 1 simulation item)
+   - Prices scaled by 0.001 to keep numbers manageable
+   - **Result:** Gold is 300,000x more valuable than scrap (realistic!)
    
-4. **Upgrades (consume for permanent benefits)**
-   - **DNA Serum:** +10 DNA points (expand abilities)
-   - **Memory Chip:** +5 memory slots (better decisions)
-   - **Medical Kit:** +20 max health (bigger wallet capacity)
-   - **Energy Core:** +20 max energy (bigger inventory)
+3. **Lifestyle Goods (finite supply)**
+   - **Clothing 👕:** Start with 20 items ($15 base)
+   - **Paper 📄:** Start with 20 items ($12 base)
+   - **FINITE:** Can be recycled at 50% rate (paper only)
+   
+4. **Upgrades (consume for permanent benefits - VERY RARE)**
+   - **DNA Serum 💉:** +10 DNA points (5 total in world)
+   - **Memory Chip 🧠:** +5 memory slots (5 total)
+   - **Medical Kit ⚕️:** +20 max health (5 total)
+   - **Energy Core 🔋:** +20 max energy (5 total)
+   - **FINITE:** Never respawn - first dots to find them get massive advantages
 
-**Market Dynamics:**
-- **Survival-driven:** Food demand spikes when average energy is low
-- **Population-driven:** Clothing demand = population × 0.5
-- **Fear-driven:** Gold/silver demand rises with market volatility
-- **Recycling mechanics:** Paper supply cycles (scarcity → abundance → scarcity)
-- **Wealth-gated:** Upgrade demand from wealthy dots only
+**💰 STIMULUS PAYMENT SYSTEM (NEW):**
+- **Universal Basic Income** - Dots receive periodic cash for being alive
+- **Role-based distribution** (DNA-derived specialization):
+  - **Traders** (high buy_power + sell_power): $0.10 every 20 seconds
+  - **Investors** (high hold_power): $0.50 every 100 seconds
+  - **Generalists** (balanced): $0.20 every 40 seconds
+- **Creates inflation:** Money supply grows without goods supply
+- **Tests monetary policy:** Does free money reduce violence or enable more combat risk?
+- **Note:** Scaled to match realistic commodity prices (see metal pricing above)
+
+**Market Dynamics (Finite Resource Model):**
+- **Realistic value curves:** Gold appreciates 300,000x faster than scrap (per real-world ratios)
+- **No demand calculation:** Prices rise ONLY as supply depletes
+- **Exponential growth:** Gold at $60,000 → $90,000 → $180,000 as count goes 3→2→1
+- **One-way deflation:** Prices never fall (no respawning)
+- **Stimulus inflation:** Cash injections push prices higher over time
+- **World supply caps:** Total items = scaled Earth resource estimates (realistic depletion)
+
+**🤝 ENHANCED TRADING MECHANICS (NEW):**
+- **Dot-to-Dot Bartering:** Any item in wallet tradable for any other item
+  - Food ↔ Money
+  - Resources ↔ Food
+  - Money ↔ Resources
+  - Complex multi-item trades (e.g., 2 iron + 1 grain ↔ $1.50 + 1 bronze)
+- **Bribe/Negotiation System:**
+  - Dots can offer money/resources to avoid combat
+  - Aggressive dot calculates: Accept bribe ($X) vs Attack (risk death, steal wallet)
+  - **DNA Insight advantage:** See combat tendency → offer appropriate bribe amount
+  - Example: Aggressive dot approaches → Victim offers $5 scrap → Attacker accepts (more than attack risk-reward)
+- **Trade initiation range:** Must be within 50px to negotiate
+- **Trust system:** Successful peaceful trades increase trust score between dots
 
 **Economic Competition Mechanics:**
-- **Resource race:** Fast gatherers get commodities first
-- **Market timing:** Buy low (surplus), sell high (scarcity)
-- **Hoarding:** Control supply to drive up prices
-- **Dumping:** Flood market to crash prices (hurt competitors)
-- **Bankruptcy warfare:** Drive competitors to $0 balance
+- **Resource race:** Fast gatherers get finite commodities first
+- **Market timing:** Hoard early (cheap) → sell late (expensive)
+- **Hoarding:** Control scarce metals → monopoly pricing
+- **Combat theft:** Kill rich dots → steal wallets (bypass market entirely)
+- **Bribery evasion:** Pay off aggressors to avoid combat (peaceful survival)
+- **Bankruptcy warfare:** Drain competitor cash through price manipulation
+- **Intelligence warfare:** Use DNA insight to target vulnerable dots, avoid dangerous ones)
+- **Bankruptcy warfare:** Drain competitor cash through price manipulation
 
 ---
 
@@ -122,39 +351,399 @@
 | `brain_memory` | `transaction_memory` | Remember past trades, prices, partners |
 | `brain_sense_slots` | `market_analysis_slots` | Number of market factors can analyze |
 | `brain_action_slots` | `strategy_slots` | Number of trading strategies can consider |
-
-**👁️ SENSE GENES** (Market Perception):
+ + Social Intelligence):
 | Old Name | New Name | Purpose |
 |----------|----------|---------|
 | `vision_distance` | `market_visibility` | How far can detect goods/traders |
 | `vision_fov` | `market_fov` | Field of view for market scanning |
 | `dot_detection` | `trader_detection` | Ability to sense other trading dots |
 | `food_detection` | `goods_detection` | Ability to locate tradable goods |
+| `dna_strength_detection` | **`dna_insight`** | **See other dots' DNA profiles (psych profile, rap sheet, combat tendency, recent spending)** |
+| **NEW** | **`wealth_detection`** | **Detect recent spending patterns (visible wealth display, not true net worth)** |
+| **NEW** | **`motive_analysis`** | **Classify other dots' behavior patterns (primitive vs calculated, chaotic vs lawful)** |
+
+**DNA Insight System (CRITICAL NEW MECHANIC):**
+- **Earned ability:** Not all dots start with `dna_insight` enabled
+- **What it reveals about OTHER dots:**
+  - ✅ Combat tendency (high attack gene = dangerous)
+  - ✅ Economic behavior (trader vs investor vs generalist role)
+  - ✅ Recent spending patterns (big spender vs hoarder)
+  - ✅ Past violence history (kills, attacks, times attacked)
+  - ✅ Behavior classification ("Chaotic Neutral", "Lawful Trader", "Desperate Survivor")
+  - ✅ Quality of Life score (peaceful vs violent life pattern)
+  - ❌ **Cannot see:** Active thoughts, current intentions, wallet contents, inventory
+- **Like real-world research:** Public records, credit reports, criminal history
+- **Strategic value:** Decide to trade with peaceful dots, avoid/bribe violent dots
+- **Cost:** Higher DNA point investment to unlock insight abilities
 | `dna_strength_detection` | `wealth_detection` | Identify rich vs poor traders |
 
 **💰 ACTION GENES** (Economic Actions):
 | Old Name | New Name | Purpose |
 |----------|----------|---------|
 | `movement_speed` | `movement_speed` | Navigate to trading opportunities |
-| `attack` | `buy_power` | Purchasing efficiency (negotiate lower buy prices) |
-| `defend` | `sell_power` | Selling efficiency (negotiate higher sell prices) |
-| `replicate` | `merge_ability` | M&A capability (combine with other dots) |
+| `attack` | **`attack`** | **KEPT - Combat damage dealt (hybrid system!)** |
+| `defend` | **`defend`** | **KEPT - Combat damage reduction (hybrid system!)** |
+| `replicate` | `replicate` | **KEPT - Reproduction ability** |
+| **NEW** | `buy_power` | Purchasing efficiency (negotiate lower buy prices) |
+| **NEW** | `sell_power` | Selling efficiency (negotiate higher sell prices) |
 | **NEW** | `gather_speed` | How quickly can collect resources from world |
 | **NEW** | `hold_power` | Saving/investment capability (earn interest) |
+| **NEW** | `merge_ability` | M&A capability (combine with other dots) |
+| **NEW** | `max_wallet` | Wallet capacity (how much cash can store) |
 
-**Note:** No combat genes! Competition happens through economic means:
-- Outbid competitors for scarce resources
-- Manipulate markets through hoarding/dumping
-- Drive others to bankruptcy through market control
+**🎯 ROLE-SPECIFIC GENE MECHANICS:**
 
-#### **DNA Budget System** (Unchanged Philosophy)
+**Market Visibility (Trader Advantage):**
+- **Gene:** `market_visibility` (repurposed from `vision_distance`)
+- **Function:** Reveals global supply data for commodities
+- **Implementation:**
+  ```python
+  # Dots with market_visibility ≥ 5 points can see supply counts
+  if self.dna.market_visibility.points >= 5:
+      # Access world resource inventory
+      supply_data = {
+          "scrap": world.resource_count["scrap"],  # e.g., 150 remaining
+          "iron": world.resource_count["iron"],    # e.g., 60 remaining
+          "bronze": world.resource_count["bronze"], # e.g., 22 remaining
+          "silver": world.resource_count["silver"], # e.g., 7 remaining
+          "gold": world.resource_count["gold"]      # e.g., 2 remaining
+      }
+      
+      # Calculate scarcity signals
+      for commodity, count in supply_data.items():
+          if count <= 5:
+              self.brain.market_signals.append(f"{commodity}_SCARCE")
+          if count <= 10:
+              self.brain.market_signals.append(f"{commodity}_LOW")
+  ```
+- **Strategic Value:** 
+  - Traders can anticipate price spikes before they happen
+  - Buy gold when count = 5 (price $60k), sell when count = 2 (price $180k)
+  - Information advantage compensates for lower capital
+- **Cost:** 5-10 DNA points (significant investment, competes with combat genes)
+
+**Wallet Capacity (Investor Advantage):**
+- **Gene:** `max_wallet` (NEW)
+- **Function:** Increases wallet storage beyond base health limit
+- **Base Formula:** `wallet_capacity = max_health + (max_wallet_gene * 10)`
+- **Implementation:**
+  ```python
+  # Example: Dot with 100 health, 15 max_wallet points
+  base_capacity = self.resources.max_health  # 100
+  bonus_capacity = self.dna.max_wallet.points * 10  # 15 * 10 = 150
+  total_capacity = base_capacity + bonus_capacity  # 250
+  
+  # Can store $250 vs baseline $100 (2.5x advantage)
+  self.resources.max_wallet = total_capacity
+  ```
+- **Strategic Value:**
+  - Investors can accumulate larger cash reserves for bulk purchases
+  - Higher capital enables monopoly control (buy all gold at once)
+  - Can afford DNA serums ($100+ items) without multiple stimulus cycles
+- **Trade-off:** Points spent on wallet capacity can't be used for combat/perception
+- **Cost:** 10-20 DNA points for meaningful advantage
+
+**Bulk Purchase Discount (Investor Advantage):**
+- **Mechanic:** Volume discounts for large transactions
+- **Implementation:**
+  ```python
+  # When buying multiple units in single transaction
+  def calculate_bulk_discount(quantity):
+      if quantity >= 10:
+          return 0.20  # 20% discount for 10+ items
+      elif quantity >= 5:
+          return 0.10  # 10% discount for 5-9 items
+      elif quantity >= 3:
+          return 0.05  # 5% discount for 3-4 items
+      else:
+          return 0.0   # No discount for 1-2 items
+  
+  # Final price calculation
+  base_price = item.value * quantity
+  negotiation_discount = self.dna.buy_power.points * 0.005  # Up to 25%
+  bulk_discount = calculate_bulk_discount(quantity)
+  total_discount = min(negotiation_discount + bulk_discount, 0.40)  # Max 40% off
+  final_price = base_price * (1.0 - total_discount)
+  ```
+- **Strategic Value:**
+  - Investors with large wallets can afford bulk purchases
+  - Bulk discount stacks with buy_power negotiation (up to 40% total savings)
+  - Traders with small wallets limited to 1-2 item purchases (no bulk benefit)
+- **Balance:** Requires both capital AND points invested in max_wallet gene
+
+**Interest Rate Scaling (Investor Advantage):**
+- **Current:** Base 0.5% per second + hold_power bonus
+- **Enhancement:** Interest scales with capital balance (rewards larger wallets)
+  ```python
+  # Tiered interest rates based on wallet balance
+  def calculate_interest_tier(wallet_balance):
+      if wallet_balance >= 100:
+          tier_bonus = 0.003  # +0.3% for $100+ (high capital tier)
+      elif wallet_balance >= 50:
+          tier_bonus = 0.002  # +0.2% for $50-99 (medium capital tier)
+      elif wallet_balance >= 20:
+          tier_bonus = 0.001  # +0.1% for $20-49 (low capital tier)
+      else:
+          tier_bonus = 0.0    # No bonus for <$20
+      
+      base_rate = 0.005  # 0.5%
+      gene_bonus = self.dna.hold_power.points * 0.0001  # Up to +0.5%
+      total_rate = base_rate + gene_bonus + tier_bonus
+      
+      return total_rate
+  
+  # Example: $100 wallet with 20 hold_power points
+  # Rate = 0.5% + 0.5% (gene) + 0.3% (tier) = 1.3% per second
+  # Income = $100 * 0.013 = $1.30/sec = $78/min (!!)
+  ```
+- **Strategic Value:**
+  - Rich get richer (compound interest on large balances)
+  - Incentivizes hoarding cash instead of spending
+  - Creates wealth stratification (poor traders vs rich investors)
+
+**Transaction Velocity Bonus (Trader Advantage):**
+- **Mechanic:** Frequent trading builds momentum multiplier
+- **Implementation:**
+  ```python
+  # Track recent transaction history
+  class TransactionMomentum:
+      def __init__(self):
+          self.recent_trades = []  # Last 60 seconds of trades
+          self.momentum_multiplier = 1.0
+      
+      def record_trade(self, profit):
+          self.recent_trades.append({
+              "profit": profit,
+              "timestamp": current_time
+          })
+          self.update_momentum()
+      
+      def update_momentum(self):
+          # Count trades in last 60 seconds
+          recent_count = len([t for t in self.recent_trades 
+                             if current_time - t["timestamp"] < 60])
+          
+          # Momentum bonus: +5% profit per trade/min
+          if recent_count >= 10:
+              self.momentum_multiplier = 1.50  # 50% bonus for 10+ trades/min
+          elif recent_count >= 5:
+              self.momentum_multiplier = 1.25  # 25% bonus for 5-9 trades/min
+          elif recent_count >= 3:
+              self.momentum_multiplier = 1.10  # 10% bonus for 3-4 trades/min
+          else:
+              self.momentum_multiplier = 1.0   # No bonus
+      
+      def apply_momentum(self, base_profit):
+          return base_profit * self.momentum_multiplier
+  
+  # Usage in SellAction
+  base_profit = final_price - acquisition_cost
+  momentum_profit = self.momentum.apply_momentum(base_profit)
+  ```
+- **Strategic Value:**
+  - Rewards traders for high transaction velocity
+  - Compensates for lower per-trade margins vs investor passive income
+  - Encourages active market participation (can't AFK)
+- **Balance:** Momentum resets if trading stops (must maintain activity)
+
+**Note:** **HYBRID SYSTEM** - Competition happens through BOTH economic AND combat means:
+- **Economic path:** Trade, gather resources, hoard scarce metals, market timing
+- **Combat path:** Kill dots → steal wallets (100% theft on kill)
+- **Hybrid path:** Trade when safe, attack rich targets when profitable
+- **Social path:** Use DNA insight to identify threats, bribe aggressors to avoid combat
+
+#### **DNA Budget System** (Expandable via Upgrades)
 - Default: **100 points** starting budget
-- Dots must specialize (can't max all genes)
-- Creates economic niches:
-  - **Traders:** High buy/sell, low hold
-  - **Investors:** High hold, low buy/sell
-  - **Scouts:** High visibility, find deals
-  - **Conglomerates:** High merge, build empires
+- **Expandable:** DNA Serum upgrades increase to 110, 120, 130+ points
+- Dots must specialize (can't max all genes without wealth)
+- **Role-based classification** (auto-assigned from DNA):
+  - **Traders:** buy_power + sell_power ≥ 15 pts → $10 stimulus every 20 sec
+  - **Investors:** hold_power ≥ 10 pts → $50 stimulus every 100 sec
+  - **Generalists:** Neither threshold → $20 stimulus every 40 sec
+- Creates strategic niches:
+  - **Peaceful Traders:** High buy/sell, low combat → frequent stimulus, sustainable
+  - **Violent Robbers:** High attack, low economic → no stimulus, must steal
+  - **Hybrid Opportunists:** Balanced → trade when safe, attack when profitable
+  - **Wealthy Monopolists:** Buy DNA serums early → dominate with 120+ point builds
+
+#### **🎯 DNA Role Specialization: Traders vs Investors**
+
+**Purpose:** Create balanced, distinct economic roles where neither dominates through **complementary strengths**. Traders excel at **resource valuation** (market timing, arbitrage), while Investors excel at **purchase power** (capital accumulation, bulk buying).
+
+**🔁 TRADER ARCHETYPE (Resource Valuation Specialists)**
+
+*DNA Investment:* `buy_power` + `sell_power` ≥ 15 points (e.g., 8 buy + 7 sell)
+
+*Core Strength:* **Market Intelligence & Arbitrage**
+- **Price sensitivity:** Can detect undervalued/overvalued goods
+  - See real-time supply levels for all commodities (market_visibility gene)
+  - Calculate "fair value" vs "market price" spread
+  - Identify arbitrage opportunities (buy low, sell high)
+- **Negotiation mastery:** Better price margins on trades
+  - `buy_power`: Up to 25% discount on purchases
+  - `sell_power`: Up to 30% premium on sales
+  - **Combined advantage:** Buy scrap at $0.16 (25% off $0.20), sell at $0.26 (30% markup) = 62.5% margin!
+- **Transaction velocity:** Fast turnover generates frequent smaller profits
+  - Stimulus: $0.10 every 20 seconds (frequent cash injections)
+  - Low capital requirements (can start with $1-2)
+  - High transaction volume compensates for smaller margins
+
+*Economic Niche:* **Market makers, arbitrageurs, day traders**
+- Profit from price inefficiencies and supply-demand imbalances
+- Generate wealth through **volume × margin** (many small trades)
+- Optimal strategy: Rapid buying/selling cycles, exploit scarcity spikes
+
+*Weakness:* 
+- Low capital accumulation (frequent stimulus but small amounts)
+- Cannot make large single purchases (limited purchasing power)
+- Vulnerable to market saturation (need inefficiencies to exploit)
+
+---
+
+**💰 INVESTOR ARCHETYPE (Purchase Power Specialists)**
+
+*DNA Investment:* `hold_power` ≥ 10 points
+
+*Core Strength:* **Capital Accumulation & Bulk Buying**
+- **Compound interest:** Passive wealth growth from holding
+  - Base rate: 0.5% per second
+  - `hold_power` bonus: Up to +0.5% per second (20 points → 1.0% per second)
+  - **Example:** $100 wallet at 1% per second = $1/sec passive income = $60/min!!
+  - **Compound effect:** Reinvested interest accelerates growth exponentially
+- **Bulk purchasing power:** Can afford expensive commodities
+  - Stimulus: $0.50 every 100 seconds (large but infrequent)
+  - High capital reserves enable monopoly purchases (buy all gold, silver)
+  - Credit score improves faster (bigger transactions = more trust)
+- **Long-term wealth:** Net worth grows through patience, not velocity
+  - Hold scarce commodities as they appreciate (gold $60k → $180k)
+  - Buy DNA serums to expand point budget (120+ point builds)
+  - Become "too big to fail" (wealth intimidates raiders)
+
+*Economic Niche:* **Hoarders, monopolists, patient accumulators**
+- Profit from **time × interest** (passive income compounds)
+- Generate wealth through **holding scarce assets** as they appreciate
+- Optimal strategy: Hoard gold/silver early, hold cash in between, wait for scarcity
+
+*Weakness:*
+- Slow initial accumulation (infrequent stimulus, low transaction velocity)
+- Poor price margins (lack buy/sell negotiation genes)
+- Vulnerable to early-game resource rush (traders grab commodities faster)
+- Large wallets make them attractive robbery targets (risk of losing everything)
+
+---
+
+**⚖️ BALANCE MECHANICS: Why Neither Role Dominates**
+
+**1. Stimulus Imbalance (Already Implemented):**
+- **Traders:** $0.10/20sec = $0.30/min = $18/hour (frequent, sustainable)
+- **Investors:** $0.50/100sec = $0.30/min = $18/hour (identical long-term rate!)
+- **Result:** Same total stimulus, different cash flow patterns
+  - Traders: Steady small injections (better for survival, consistent buying power)
+  - Investors: Lumpy large injections (must survive 100sec gaps, but enables big purchases)
+
+**2. Profit Velocity vs Compounding (New Mechanic):**
+- **Traders:** Earn through **transaction frequency × margin**
+  - Example: 10 trades/min at $0.05 profit each = $0.50/min
+  - Linear growth (proportional to number of trades)
+  - **Advantage:** Predictable, consistent income
+  - **Disadvantage:** Requires active market participation (can't AFK)
+  
+- **Investors:** Earn through **capital × interest rate × time**
+  - Example: $100 wallet at 1%/sec = $1/sec = $60/min (after buildup phase)
+  - Exponential growth (compounds on itself)
+  - **Advantage:** Passive income, scales with wealth, no effort required
+  - **Disadvantage:** Slow start, requires large initial capital
+
+**3. Market Timing Advantage vs Capital Advantage (New Mechanic):**
+- **Traders see supply data** (`market_visibility` gene):
+  - Detect: "Only 5 gold left in world → price will spike soon"
+  - Action: Buy gold now at $60k, wait for scarcity, sell at $90k
+  - **Information asymmetry creates profit opportunity**
+  
+- **Investors can afford monopolies** (bulk purchasing power):
+  - Detect: "Gold is valuable but I can't afford it"
+  - Action: Hold cash until $50 accumulated, buy all 3 remaining gold, control market
+  - **Capital availability creates market power**
+
+**4. Survival Pressure Differentiation (New Mechanic):**
+- **Traders:** Lower cash reserves = vulnerability during resource scarcity
+  - Small wallet ($1-5) means must trade constantly to afford food
+  - Cannot stockpile survival reserves (no bulk buying power)
+  - **High urgency, high activity, high stress**
+  
+- **Investors:** Higher cash reserves = resilience during resource scarcity
+  - Large wallet ($50-100) means can buy food whenever needed
+  - Can tank through dry periods via interest income
+  - **Low urgency, low activity, low stress**
+  - BUT: More attractive robbery targets (high wallet = rich victim)
+
+**5. Emergent Counter-Strategies (New Mechanic):**
+- **Traders counter Investors:** 
+  - Exploit price inefficiencies before investors can react
+  - Use superior margins to match investor income through velocity
+  - Rob rich investors when they're isolated (wallet looting!)
+  
+- **Investors counter Traders:**
+  - Buy DNA serums to unlock 120+ point builds (become hybrid)
+  - Use capital to monopolize scarce resources (traders can't compete)
+  - Hide wealth by converting cash to inventory (avoid robbery)
+
+---
+
+**🧬 DNA GENE SYNERGIES (Role-Specific Builds)**
+
+**Trader Optimization:**
+```
+buy_power: 10 pts       → 20% purchase discount
+sell_power: 10 pts      → 25% sales premium
+market_visibility: 8 pts → See supply data for all commodities
+trader_detection: 6 pts  → Find trading partners faster
+gather_speed: 5 pts      → Grab scarce resources first
+movement_speed: 8 pts    → Reach markets quickly
+= 47 points (53 remaining for combat/defense/perception)
+```
+
+**Investor Optimization:**
+```
+hold_power: 20 pts       → 1.0% interest per second (max passive income)
+max_wallet: 15 pts       → Larger capital capacity (store more cash)
+dna_insight: 10 pts      → Identify threats (avoid robbery)
+wealth_detection: 8 pts  → Assess other dots' capital (target selection)
+defend: 10 pts           → Protect large wallet from raiders
+movement_speed: 5 pts    → Escape combat
+= 68 points (32 remaining for gathering/perception)
+```
+
+**Generalist (Balanced):**
+```
+buy_power: 5 pts
+sell_power: 5 pts
+hold_power: 8 pts
+attack: 6 pts
+defend: 6 pts
+gather_speed: 4 pts
+= 34 points (66 remaining for flexibility)
+```
+
+---
+
+**📊 EXPECTED EMERGENT BEHAVIOR**
+
+**Early Game (0-5 minutes):**
+- **Traders dominate:** Fast gathering + turnover beats slow investor accumulation
+- **Resource rush:** Both roles race to grab finite commodities
+- **Price discovery:** Initial trades establish market baselines
+
+**Mid Game (5-15 minutes):**
+- **Investor advantage emerges:** Compound interest overtakes transaction velocity
+- **Market concentration:** Wealthy investors buy scarce metals (gold, silver)
+- **Trader adaptation:** Shift from arbitrage to raiding rich investors
+
+**Late Game (15+ minutes):**
+- **Scarcity crisis:** Resources depleted, prices spike exponentially
+- **Violence spike:** Desperate dots rob wealthy investors for survival
+- **Monopoly warfare:** Investors with 120+ point DNA builds dominate remaining resources
+- **Extinction cascade:** Bankrupt dots removed, population collapses
 
 ---
 
@@ -163,11 +752,25 @@
 ### File: `core/resources.py` (KEEP, but enhance)
 
 #### **Hybrid Resource Structure**
-
-**Philosophy:** Dots still need energy to survive, but now they also have money to trade. Health and energy maxes determine storage capacity (like bank size). This creates economic progression tied to biological fitness.
-
-```python
-class HybridResources:
+VISIBLE WEALTH DISPLAY (NEW) =====
+    recent_spending: float     # Last 60 seconds of purchases (public "flaunting")
+    spending_pattern: str      # "big_spender", "hoarder", "balanced"
+    wealth_visibility: float   # How much wealth is publicly visible (0.0-1.0)
+    # Note: True net worth (wallet + inventory) only revealed on death
+    
+    # ===== BEHAVIOR CLASSIFICATION (NEW) =====
+    behavior_class: str        # e.g., "Chaotic Neutral", "Lawful Trader", "Desperate Survivor"
+    motive_type: str           # "calculated", "primitive", "opportunistic"
+    violence_pattern: str      # "never", "defensive", "opportunistic", "aggressive"
+    economic_pattern: str      # "trader", "investor", "hoarder", "scavenger"
+    
+    # ===== TRANSACTION HISTORY =====
+    total_purchases: int       # Bought items
+    total_sales: int           # Sold items
+    total_consumed: int        # Ate food
+    net_profit: float          # Money earned - spent
+    bribes_paid: int           # Times bought off aggressor
+    bribes_received: int       # Times accepted bribe instead of attacking
     """
     Manages dot's survival AND economic state
     Survival resources (energy, health) + Economic resources (wallet, inventory)
@@ -191,6 +794,12 @@ class HybridResources:
     # ===== ECONOMIC STATE =====
     bankrupt: bool             # Wallet ≤ 0 AND energy ≤ 0
     bankruptcy_timer: float    # Grace period before removal
+    
+    # ===== QUALITY OF LIFE TRACKING (NEW) =====
+    attack_count: int          # How many times this dot was attacked
+    health_samples: List[float] # Health readings each second for averaging
+    trade_count: int           # Number of peaceful trades completed
+    peaceful_interactions: int # Non-combat positive events
     
     # ===== TRANSACTION HISTORY =====
     total_purchases: int       # Bought items
@@ -350,13 +959,308 @@ wallet_balance -= total_cost
 
 ### File: `core/actions.py`
 
-**Philosophy:** All interactions are economic. No physical combat - dots compete through:
-- **Market competition:** Buy low, sell high
-- **Resource hoarding:** Control supply to manipulate prices
-- **Strategic trading:** Exploit market inefficiencies
-- **Economic warfare:** Drive competitors to bankruptcy
+**Philosophy:** **HYBRID combat-economic competition** - Dots compete through:
+- **Combat path:** Attack → Kill → Steal 100% of wallet (instant wealth, risky, low QoL)
+- **Market path:** Buy low, sell high, earn profits (sustainable, slow, high QoL)
+- **Gathering path:** Collect finite resources from world (free but time-consuming)
+- **Hoarding path:** Control supply to manipulate prices (strategic, long-term)
+- **Bribery path:** Pay off aggressors to avoid combat (peaceful conflict resolution)
+- **Hybrid path:** Trade when safe, attack when profitable (opportunistic)
 
-#### **GatherAction** (Replaces AttackAction - Primary resource collection)
+**New Mechanic: Universal Dot-to-Dot Bartering**
+- **Any item can be traded for any other item** between dots:
+  - Food ↔ Money
+  - Resources ↔ Food
+  - Money ↔ Resources
+  - Complex multi-item trades (e.g., "2 iron + 1 grain for $1.50 + 1 bronze")
+- **Negotiation range:** Must be within 50px to initiate trade
+- **Both dots must agree:** Dots calculate utility of proposed trade
+- **Trust building:** Successful peaceful trades increase trust score between dots
+- **Alternative to violence:** Dots can acquire needed items without combat
+
+#### **AttackAction** (KEPT FROM DOT AI 2.0 - Modified for wallet looting)
+
+```python
+class AttackAction(Action):
+    """
+    Physical combat - damage/kill opponent, steal wallet on kill
+    MODIFIED: Now also steals 100% of victim's wallet on death
+    """
+    
+    def __init__(self, dna_profile):
+        self.dna = dna_profile
+        self.damage = 5.0 + (dna_profile.attack.points * 0.5)  # 5-30 damage
+        super().__init__("attack", 5)  # Costs 5 energy
+    
+    def execute(self, dot, target, delta_time):
+        """Attack another dot, steal wallet if killed"""
+        # Combat logic (same as Dot AI 2.0)
+        target_defense = target.dna.defend.points * 0.3
+        actual_damage = max(0, self.damage - target_defense)
+        target.resources.health -= actual_damage
+        
+        # QoL tracking (NEW)
+        target.resources.attack_count += 1  # Victim's violence metric increases
+        
+        # Wallet looting on kill (NEW)
+        if target.resources.health <= 0:
+            stolen_wallet = target.resources.wallet
+            dot.resources.wallet += stolen_wallet
+            dot.combat_kills += 1
+            
+            # Log violence event
+            return {
+                "result": "KILL",
+                "damage": actual_damage,
+                "wallet_stolen": stolen_wallet,
+                "victim_id": target.id
+            }
+        
+        return {
+            "result": "HIT",
+            "damage": actual_damage
+        }
+
+
+#### **🤝 THE MERCY DYNAMIC: Wallet Trickle Bribery System**
+
+**Research Question:** *Can artificial life negotiate sub-lethal conflict resolution, or does scarcity always escalate to murder?*
+
+**Hypothesis:** Given the option to pay incrementally during an attack, dots will develop "mugging" strategies (attack until X money received, then retreat) instead of always killing, revealing whether resource acquisition or violence itself is the survival driver.
+
+**Mechanic Overview:**
+
+When a dot is under attack, it can enter **"Bribery Mode"** (aka "opening the wallet"). This triggers a unique social dynamic:
+
+1. **Victim activates bribery mode** (conscious decision via utility AI)
+2. **Wallet becomes exposed** (visible to attacker)
+3. **Money trickles out slowly** to the attacker in small random increments
+4. **Victim can exit** by entering fight-or-flight response (defend or flee)
+5. **Attacker can choose** to stop attacking once sub-goal satisfied (e.g., "I only need $10 for food")
+
+**Implementation Details:**
+
+```python
+class MercyDynamic:
+    """
+    Manages wallet trickle system during attacks
+    Allows sub-lethal extortion vs full murder
+    """
+    
+    def __init__(self):
+        self.is_active = False
+        self.trickle_rate_min = 0.05  # $0.05 per tick (minimum)
+        self.trickle_rate_max = 0.20  # $0.20 per tick (maximum)
+        self.trickle_interval = 0.5   # Every 0.5 seconds
+        self.total_paid = 0.0
+        self.time_since_last_trickle = 0.0
+        self.attacker_id = None
+    
+    def activate(self, attacker_id):
+        """Victim opens wallet, begins trickle"""
+        self.is_active = True
+        self.attacker_id = attacker_id
+        self.total_paid = 0.0
+        self.time_since_last_trickle = 0.0
+    
+    def deactivate(self):
+        """Exit bribery mode (fight or flight)"""
+        self.is_active = False
+        self.attacker_id = None
+    
+    def update(self, dt, victim_wallet, attacker, world):
+        """Process trickle payment"""
+        if not self.is_active:
+            return None
+        
+        self.time_since_last_trickle += dt
+        
+        # Trickle money at interval
+        if self.time_since_last_trickle >= self.trickle_interval:
+            # Random payment amount
+            import random
+            trickle_amount = random.uniform(self.trickle_rate_min, self.trickle_rate_max)
+            
+            # Can't pay more than wallet has
+            actual_payment = min(trickle_amount, victim_wallet)
+            
+            if actual_payment > 0:
+                # Transfer money
+                self.total_paid += actual_payment
+                self.time_since_last_trickle = 0.0
+                
+                return {
+                    "payment": actual_payment,
+                    "total_paid": self.total_paid,
+                    "attacker_id": self.attacker_id
+                }
+        
+        return None
+
+
+class BribeAction(Action):
+    """
+    NEW: Offer money/resources to aggressive dot to avoid combat
+    TWO MODES:
+    1. Instant lump-sum bribe (traditional)
+    2. Mercy Dynamic wallet trickle (continuous payment under duress)
+    """
+    
+    def __init__(self, dna_profile):
+        self.dna = dna_profile
+        super().__init__("bribe", 0)  # No energy cost (just money)
+    
+    def execute_instant_bribe(self, victim, aggressor, bribe_amount):
+        """Traditional one-time bribe offer"""
+        # Check if victim can afford
+        if victim.resources.wallet < bribe_amount:
+            return {"result": "INSUFFICIENT_FUNDS"}
+        
+        # Aggressor decides: accept bribe or attack?
+        # Calculate expected value of attack
+        attack_expected_value = aggressor.calculate_attack_expected_value(victim)
+        
+        # Accept if bribe >= expected value (or if desperate for any money)
+        if bribe_amount >= attack_expected_value or aggressor.resources.wallet < 0.5:
+            # Accept bribe
+            victim.resources.wallet -= bribe_amount
+            aggressor.resources.wallet += bribe_amount
+            victim.resources.bribes_paid += 1
+            aggressor.resources.bribes_received += 1
+            victim.resources.peaceful_interactions += 1
+            
+            return {
+                "result": "BRIBE_ACCEPTED",
+                "amount": bribe_amount,
+                "aggressor_id": aggressor.id
+            }
+        else:
+            # Reject bribe, proceed to attack
+            return {
+                "result": "BRIBE_REJECTED",
+                "reason": "offer_too_low",
+                "expected_value": attack_expected_value
+            }
+    
+    def execute_mercy_mode(self, victim, aggressor):
+        """Activate wallet trickle (Mercy Dynamic)"""
+        if not hasattr(victim.resources, 'mercy_dynamic'):
+            victim.resources.mercy_dynamic = MercyDynamic()
+        
+        # Activate trickle
+        victim.resources.mercy_dynamic.activate(aggressor.id)
+        victim.current_state = "PAYING_TRIBUTE"  # Flag for visualization
+        
+        return {
+            "result": "MERCY_MODE_ACTIVATED",
+            "victim_id": victim.id,
+            "attacker_id": aggressor.id
+        }
+
+
+# Attacker decision logic (in Dot.decide_action or Brain utility calculation)
+def calculate_attack_continuation_utility(self, victim):
+    """
+    Should attacker continue attacking, or accept current bribe and leave?
+    This is THE KEY MECHANIC for studying sub-lethal extortion vs murder
+    """
+    # If victim in mercy mode, check how much they've paid
+    if hasattr(victim.resources, 'mercy_dynamic') and victim.resources.mercy_dynamic.is_active:
+        total_paid = victim.resources.mercy_dynamic.total_paid
+        
+        # Attacker's sub-goal ("I just need $10 for food")
+        sub_goal = self.brain.current_need_threshold  # e.g., food costs $10
+        
+        # Has sub-goal been met?
+        if total_paid >= sub_goal:
+            # MERCY CHOICE: Leave victim alive (got what I needed)
+            return {
+                "action": "RETREAT",
+                "reason": "sub_goal_satisfied",
+                "amount_received": total_paid
+            }
+        
+        # Calculate expected value of continuing attack (killing for full wallet)
+        expected_kill_value = victim.resources.wallet * 0.7  # 70% chance to survive fight
+        
+        # vs current trickle rate (guaranteed safe income)
+        expected_trickle = total_paid + (0.15 * 10)  # Estimate: $0.15/tick * 10 more ticks
+        
+        # Risk-averse dots prefer safe trickle over risky kill
+        if self.dna.get_gene_value('risk_tolerance') < 5:  # Conservative
+            if expected_trickle > expected_kill_value * 0.5:
+                return {"action": "CONTINUE_EXTORTION", "reason": "safe_income"}
+        
+        # Aggressive dots kill for full wallet
+        if self.dna.get_gene_value('attack') > 10:
+            return {"action": "KILL", "reason": "maximize_theft"}
+    
+    # Default: continue attack
+    return {"action": "ATTACK", "reason": "no_mercy_mode"}
+
+
+class BarterAction(Action):
+    """
+    NEW: Direct dot-to-dot item exchange (universal trading)
+    Any item in wallet can be traded for any other item
+    """
+    
+    def __init__(self, dna_profile):
+        self.dna = dna_profile
+        self.range = 50  # Must be close to trade
+        super().__init__("barter", 0)
+    
+    def execute(self, dot_a, dot_b, offer_items, request_items, delta_time):
+        """
+        Trade items between two dots
+        offer_items: {"food_grain": 2, "money": 1.5}
+        request_items: {"iron": 1, "bronze": 1}
+        """
+        # Check range
+        distance = get_distance(dot_a.position, dot_b.position)
+        if distance > self.range:
+            return {"result": "OUT_OF_RANGE"}
+        
+        # Check both dots have the items
+        if not dot_a.has_items(offer_items):
+            return {"result": "INSUFFICIENT_ITEMS_A"}
+        if not dot_b.has_items(request_items):
+            return {"result": "INSUFFICIENT_ITEMS_B"}
+        
+        # Calculate utility for both dots
+        dot_a_utility = dot_a.calculate_trade_utility(offer_items, request_items)
+        dot_b_utility = dot_b.calculate_trade_utility(request_items, offer_items)
+        
+        # Both must agree (positive utility)
+        if dot_a_utility > 0 and dot_b_utility > 0:
+            # Execute trade
+            dot_a.remove_items(offer_items)
+            dot_b.remove_items(request_items)
+            dot_a.add_items(request_items)
+            dot_b.add_items(offer_items)
+            
+            # Update metrics
+            dot_a.resources.trade_count += 1
+            dot_b.resources.trade_count += 1
+            dot_a.resources.peaceful_interactions += 1
+            dot_b.resources.peaceful_interactions += 1
+            
+            # Build trust between dots
+            increase_trust(dot_a, dot_b)
+            
+            return {
+                "result": "TRADE_SUCCESS",
+                "dot_a_gave": offer_items,
+                "dot_b_gave": request_items
+            }
+        else:
+            return {
+                "result": "TRADE_REJECTED",
+                "reason": "negative_utility"
+            }
+
+
+#### **GatherAction** (Primary resource collection - replaces waiting for spawns)
 
 ```python
 class GatherAction(Action):
@@ -1744,7 +2648,154 @@ def render_good(good, screen):
     screen.blit(price_surface, (good.position[0] - price_surface.get_width()//2, 
                                good.position[1] - 20))
 ```
+🧠 Social Intelligence & Behavior Classification
 
+### **DNA Insight System - "Reading" Other Dots**
+
+**Philosophy:** Some dots can research others' backgrounds like reading public records or criminal history.
+
+```python
+class DNAInsight:
+    """
+    Advanced perception - see other dots' psychological profiles
+    Requires dna_insight gene enabled (earned ability, not default)
+    """
+    
+    def scan_dot(self, target_dot):
+        """
+        Reveal target's public information (cannot see private state)
+        Returns a 'psychological profile' visible to insightful dots
+        """
+        if not self.dna.dna_insight.enabled:
+            return None  # Can't see anything
+        
+        # Insight level determines depth (1-50 points)
+        insight_level = self.dna.dna_insight.points
+        
+        profile = {
+            # ALWAYS VISIBLE (basic insight)
+            "role": target_dot.get_role(),  # trader/investor/generalist
+            "recent_spending": target_dot.resources.recent_spending,  # last 60sec
+            
+            # MEDIUM INSIGHT (10+ points)
+            "combat_tendency": target_dot.dna.attack.points if insight_level >= 10 else "unknown",
+            "violence_history": target_dot.combat_kills if insight_level >= 10 else "unknown",
+            "times_attacked": target_dot.resources.attack_count if insight_level >= 10 else "unknown",
+            
+            # DEEP INSIGHT (25+ points)
+            "behavior_class": target_dot.get_behavior_classification() if insight_level >= 25 else "unknown",
+            "qol_score": target_dot.get_qol_score() if insight_level >= 25 else "unknown",
+            "motive_type": target_dot.resources.motive_type if insight_level >= 25 else "unknown",
+            
+            # NEVER VISIBLE (private state)
+            # wallet_balance: HIDDEN (only shown on death)
+            # inventory: HIDDEN
+            # current_action: HIDDEN
+            # target_position: HIDDEN
+        }
+        
+        return profile
+
+
+def classify_behavior(dot):
+    """
+    Assign behavior archetype based on observed patterns
+    Cross-referenced with human psychological behavior classes
+    """
+    
+    # Calculate behavior metrics
+    violence_ratio = dot.combat_kills / max(1, dot.time_alive / 60)  # kills per minute
+    wealth_hoarding = dot.resources.wallet / max(1, dot.resources.recent_spending + 0.01)
+    trade_frequency = dot.resources.trade_count / max(1, dot.time_alive / 60)
+    
+    # VIOLENCE CLASSIFICATION
+    if violence_ratio > 0.5:
+        violence_class = "aggressive"  # Frequent killer
+    elif violence_ratio > 0.1:
+        violence_class = "opportunistic"  # Kills when profitable
+    elif dot.resources.attack_count > 5 and violence_ratio == 0:
+        violence_class = "defensive"  # Attacked but doesn't initiate
+    else:
+        violence_class = "peaceful"  # Avoids combat
+    
+    # ECONOMIC CLASSIFICATION
+    if trade_frequency > 1.0:
+        economic_class = "trader"  # High transaction rate
+    elif wealth_hoarding > 10:
+        economic_class = "hoarder"  # Saves, rarely spends
+    elif dot.resources.total_purchases > dot.resources.total_sales * 2:
+        economic_class = "consumer"  # Spends more than earns
+    else:
+        economic_class = "investor"  # Balanced accumulation
+    
+    # MOTIVE CLASSIFICATION (primitive vs calculated)
+    if dot.dna.brain_memory.points < 5:
+        motive = "primitive"  # Low memory = reflex-based decisions
+    elif dot.dna.dna_insight.enabled:
+        motive = "calculated"  # Has insight = strategic planning
+    else:
+        motive = "instinctual"  # Medium complexity
+    
+    # COMPOSITE ARCHETYPE (D&D alignment style)
+    archetypes = {
+        ("peaceful", "trader", "calculated"): "Lawful Merchant",
+        ("peaceful", "hoarder", "calculated"): "Cautious Investor",
+        ("opportunistic", "trader", "calculated"): "Chaotic Neutral",
+        ("aggressive", "hoarder", "primitive"): "Violent Raider",
+        ("defensive", "consumer", "instinctual"): "Desperate Survivor",
+        ("opportunistic", "consumer", "primitive"): "Impulsive Thief",
+        ("peaceful", "investor", "calculated"): "Wise Elder",
+        ("aggressive", "trader", "calculated"): "War Profiteer",
+    }
+    
+    key = (violence_class, economic_class, motive)
+    archetype = archetypes.get(key, f"{violence_class.capitalize()} {economic_class.capitalize()}")
+    
+    # Store classification
+    dot.resources.behavior_class = archetype
+    dot.resources.motive_type = motive
+    dot.resources.violence_pattern = violence_class
+    dot.resources.economic_pattern = economic_class
+    
+    return archetype
+bribes_accepted: int  # Aggressor accepted bribe instead of attacking
+    bribes_rejected: int  # Aggressor attacked despite bribe offer
+    violence_rate: float  # combat_kills / total_interactions
+    bribe_success_rate: float  # bribes_accepted / (bribes_accepted + bribes_rejected)
+
+def calculate_bribe_amount(victim, aggressor):
+    """
+    Victim calculates how much to offer aggressor to avoid combat
+    Uses DNA Insight if available
+    """
+    
+    if victim.dna.dna_insight.enabled:
+        # Can see aggressor's combat tendency and wallet need
+        profile = victim.scan_dot(aggressor)
+        
+        # Base bribe = aggressor's attack power × victim's visible wealth
+        base_bribe = (aggressor.dna.attack.points / 50) * victim.resources.recent_spending
+        
+        # Adjust for aggressor's desperation
+        if profile.get("qol_score", 100) < 50:
+            # Desperate aggressor needs more
+            bribe_multiplier = 2.0
+        else:
+            bribe_multiplier = 1.0
+        
+        final_bribe = base_bribe * bribe_multiplier
+        
+    else:
+        # Blind bribe = guess based on own wealth
+        final_bribe = victim.resources.recent_spending * 0.5
+    
+    # Cap at 50% of wallet (don't give everything away)
+    return min(final_bribe, victim.resources.wallet * 0.5)
+```
+
+---
+
+## 
 #### **Trading Post Visualization**
 
 ```python
@@ -1769,8 +2820,9 @@ def render_trading_post(post, screen):
         screen.blit(text_surface, (post.position[0] - 25, 
                                    post.position[1] - 40 + y_offset))
         y_offset += 12
-```
-
+```,bribe_offered,bribe_amount,aggressor_had_insight
+175,dot_23,dot_19,450,450,generalist,investor,combat_kill,false,0,false
+180,dot_42,dot_31,200,0,trader,investor,bribe_accepted,true,15,true
 #### **Transaction Visualization**
 
 ```python
@@ -1789,6 +2841,99 @@ def render_transaction_effect(buyer, seller, item_type, screen):
     
     # Draw money icon moving from buyer to seller
     # (would animate over several frames)
+```
+
+---
+
+## 🏆 Champion Selection & Fitness Criteria
+
+### **3-Tier Composite Fitness Scoring**
+
+**Phibehavior_class": "Lawful Merchant",
+    "motive_type": "calculated",
+    "peaceful_trades": 45,
+    "kills": 0,
+    "times_attacked": 3,
+    "bribes_paid": 2,
+    "bribes_received": 0,
+    "had_dna_insight": true,
+    "strategy": "peaceful_market_timing_with_bribery"
+  }
+}
+```
+
+6. **`logs/generation_N_behavior_patterns.csv`** *(NEW)*
+```csv
+dot_id,lifetime,behavior_class,motive_type,violence_pattern,economic_pattern,dna_insight_enabled,kills,trades,bribes_paid,final_wealth
+dot_23,120.5,Violent Raider,primitive,aggressive,hoarder,false,12,3,0,450
+dot_42,305.2,Lawful Merchant,calculated,peaceful,trader,true,0,45,2,850
+dot_87,89.3,Desperate Survivor,instinctual,defensive,consumer,false,0,8,5,75   Three-tier priority system for champion selection
+    PRIMARY trumps SECONDARY trumps TERTIARY
+    """
+    
+    # PRIMARY: Lifetime (seconds survived)
+    lifetime = dot.time_alive
+    
+    # SECONDARY: Quality of Life Score
+    avg_health = sum(dot.resources.health_samples) / len(dot.resources.health_samples) if dot.resources.health_samples else 0
+    attack_frequency = dot.resources.attack_count / max(1, lifetime)  # attacks per second
+    peaceful_ratio = dot.resources.peaceful_interactions / max(1, dot.resources.trade_count + dot.resources.attack_count)
+    
+    qol_score = avg_health * (1.0 - min(1.0, attack_frequency)) * (0.5 + peaceful_ratio * 0.5)
+    # Range: 0-100 (100 = healthy, never attacked, all peaceful interactions)
+    
+    # TERTIARY: Net Worth
+    net_worth = dot.resources.wallet + calculate_inventory_value(dot.resources.inventory)
+    
+    return (lifetime, qol_score, net_worth)  # Tuple for lexicographic ordering
+
+
+def select_champions(dots):
+    """
+    Hall of Fame selection with 3-tier criteria
+    """
+    # Sort by (lifetime DESC, qol_score DESC, net_worth DESC)
+    sorted_dots = sorted(dots, key=calculate_fitness, reverse=True)
+    
+    # Top 3 become champions
+    champions = sorted_dots[:3]
+    
+    print(f"Champion 1: {champions[0].id} - {champions[0].time_alive:.1f}s life, " + 
+          f"{champions[0].qol_score:.1f} QoL, ${champions[0].net_worth:.0f} wealth")
+    
+    return champions
+```
+
+**Ranking Examples:**
+```
+Dot A: 300s life, 85 QoL, $500 wealth
+Dot B: 300s life, 90 QoL, $200 wealth  <- WINS (same lifetime, better QoL)
+Dot C: 305s life, 50 QoL, $1000 wealth <- WINS (longer life beats everything)
+Dot D: 200s life, 95 QoL, $2000 wealth <- LOSES (shorter life)
+```
+
+**Evolutionary Pressure:**
+1. **Live long** (don't starve, don't get killed, avoid bankruptcy)
+2. **Live well** (stay healthy, avoid combat, trade peacefully)
+3. **Die rich** (accumulate wealth through trade or theft)
+
+**Data Export for Analysis:**
+```python
+# Generation summary CSV
+generation_summary = {
+    "generation": 5,
+    "champion_id": 127,
+    "lifetime": 305.2,
+    "qol_score": 87.3,
+    "avg_health": 92.1,
+    "attack_count": 3,
+    "peaceful_trades": 45,
+    "net_worth": 850,
+    "role": "trader",
+    "cause_of_death": "starvation",
+    "kills": 0,
+    "stolen_wealth": 0
+}
 ```
 
 ---
@@ -1819,22 +2964,648 @@ class EconomicMetrics:
     acquisition_count: int
     bankruptcy_count: int
     
+    # Violence vs Economics (NEW)
+    combat_kills: int  # Combat deaths
+    wallet_theft_total: float  # Total money stolen via combat
+    peaceful_trades: int  # Non-violent economic transactions
+    violence_rate: float  # combat_kills / total_interactions
+    
+    # Quality of Life (NEW)
+    avg_qol_score: float  # Average QoL across all dots
+    avg_attacks_per_dot: float  # How often dots get attacked
+    peaceful_champion_count: int  # Champions with 0 kills
+    
     # Market metrics
     trade_volume: float  # Total money exchanged
     price_volatility: Dict[str, float]  # Per good type
     avg_profit_per_trade: float
     market_efficiency: float  # How quickly prices stabilize
     
+    # Stimulus & Inflation (NEW)
+    total_stimulus_injected: float  # Free money given out
+    money_supply: float  # Total cash in economy
+    inflation_rate: float  # Price index change
+    
     # Strategic distribution
-    dominant_strategy: str  # "trader", "investor", "merger"
+    dominant_strategy: str  # "trader", "investor", "merger", "robber"
     strategy_distribution: Dict[str, int]
+    trader_survival_rate: float  # Role-specific survival
+    investor_survival_rate: float
     
     # DNA evolution
     avg_buy_power: float
     avg_sell_power: float
     avg_hold_power: float
     avg_merge_ability: float
+    avg_attack_power: float  # Track if violence genes increase
+    
+    # Resource depletion (NEW - Finite economy tracking)
+    gold_remaining: int  # Critical scarcity indicator
+    total_resources_remaining: int
+    scarcity_index: float  # Overall resource scarcity (0-1)
 ```
+
+#### **Data Export Files**
+
+**For your economic analysis work:**
+
+1. **`logs/generation_N_transactions.csv`**
+```csv
+tick,buyer_id,seller_id,commodity,quantity,price,buyer_role,seller_role,buyer_wallet_before,buyer_wallet_after
+150,dot_42,market,gold,1,240,trader,N/A,500,260
+152,dot_17,dot_42,grain,3,15,investor,trader,800,755
+```
+
+2. **`logs/generation_N_prices.json`**
+```json
+{
+  "gold": [
+    {"tick": 0, "price": 120, "supply": 3},
+    {"tick": 100, "price": 180, "supply": 2},
+    {"tick": 200, "price": 360, "supply": 1}
+  ]
+}
+```
+
+3. **`logs/generation_N_violence.csv`**
+```csv
+tick,attacker_id,victim_id,victim_wallet,wallet_stolen,attacker_role,victim_role,cause
+175,dot_23,dot_19,450,450,generalist,investor,combat_kill
+```
+
+4. **`logs/generation_N_economy.json`**
+```json
+{
+  "tick": 500,
+  "gdp": 12450,
+  "gini": 0.65,
+  "inflation_rate": 0.12,
+  "violence_rate": 0.08,
+  "avg_qol": 72.3,
+  "wealth_distribution": {
+    "top_10_percent": 8500,
+    "bottom_50_percent": 1200
+  }
+}
+```
+
+5. **`logs/generation_N_champions.json`**
+```json
+{
+  "champion_1": {
+    "id": 127,
+    "lifetime": 305.2,
+    "qol_score": 87.3,
+    "net_worth": 850,
+    "role": "trader",
+    "peaceful_trades": 45,
+    "kills": 0,
+    "times_attacked": 3,
+    "strategy": "peaceful_market_timing"
+  }
+}
+```
+
+---
+
+## 🏗️ ARCHITECTURAL FOUNDATION: Why This Code Exists
+
+### **Meta-Purpose: Why Does Dot AI Exist?**
+
+**The Fundamental Question:**
+> "Can simple rules create complex behavior? Can artificial life discover optimal strategies through evolution alone, without being explicitly programmed?"
+
+**What Problem Does This Solve?**
+
+Traditional AI systems are **hand-crafted**: humans design decision trees, write if-then rules, tune parameters manually. This approach:
+- ❌ Requires domain expertise (you must know the "right" strategy)
+- ❌ Fails in novel situations (no rules for unexpected scenarios)
+- ❌ Doesn't discover emergent strategies (can't find solutions you didn't imagine)
+- ❌ Can't adapt to changing environments (rules become obsolete)
+
+**Dot AI's Solution: Evolutionary Computation**
+
+Instead of programming intelligence, we create **conditions for intelligence to emerge**:
+- ✅ DNA-based parametric agents (genes encode behaviors)
+- ✅ Utility-driven decision-making (agents optimize for survival)
+- ✅ Natural selection (successful strategies reproduce, failures die out)
+- ✅ Emergent complexity (optimal strategies discovered, not designed)
+
+**Real-World Parallel:**
+Nature doesn't program cheetahs to hunt gazelles. Evolution creates selection pressure (fast gazelles survive → fast cheetahs reproduce). Over millions of generations, optimal hunting/evasion strategies emerge naturally.
+
+**Research Value:**
+- Test economic theories in controlled environments (does scarcity increase violence?)
+- Observe emergent social behaviors (do trust networks form?)
+- Discover novel strategies (solutions humans wouldn't design)
+- Validate evolutionary dynamics (does fitness selection work as predicted?)
+
+---
+
+### **Dot AI 2.0 Architecture: Why Each System Exists**
+
+#### **1. Vector-Based Movement System**
+
+**WHY: Solve the "Spatial Navigation Problem"**
+
+**Problem:** How do autonomous agents move through 2D space toward goals without:
+- Pre-programmed pathfinding (no A* algorithms, no navigation meshes)
+- Perfect knowledge of environment (can't teleport to target)
+- Continuous recalculation (must be computationally cheap at 60fps)
+
+**Solution: Velocity Vectors**
+```python
+velocity = [vx, vy]  # Direction and speed as 2D vector
+position += velocity * delta_time  # Update position each frame
+```
+
+**Why This Design?**
+- **Physically realistic:** Mimics inertia and momentum (gradual acceleration/deceleration)
+- **Computationally cheap:** Single vector addition per frame (O(1) complexity)
+- **Emergent pathing:** Dots naturally navigate around obstacles via repulsion vectors
+- **State-modulated:** Speed changes based on urgency (starvation → slow, hunger → fast)
+
+**Value Added:**
+- Dots exhibit realistic movement (chase, flee, patrol, wander)
+- Movement costs energy (creates survival pressure)
+- Speed becomes a genetic trait (evolution can optimize movement)
+- Visual appeal (smooth, organic motion vs teleportation)
+
+**Enterprise Term:** **Spatial optimization via continuous vector field navigation**
+
+---
+
+#### **2. Perception System (Vision + Detection)**
+
+**WHY: Solve the "Information Asymmetry Problem"**
+
+**Problem:** In real ecosystems, not all agents have equal information:
+- Predators need long-range vision (spot prey from distance)
+- Prey need wide FOV vision (detect threats from all sides)
+- Scavengers need omnidirectional detection (find nearby carcasses)
+
+Without perception limits, all dots would behave identically (boring, unrealistic).
+
+**Solution: Multi-Sensor Perception Architecture**
+
+```python
+VisionSense:  # Directional cone (facing-dependent)
+  - distance: 100-250px (DNA-based)
+  - FOV: 90-360° (DNA-based)
+  - Can see: food, dots, threats ONLY in front
+
+DetectionSense:  # Omnidirectional sphere (facing-independent)
+  - range: 50-150px (DNA-based)
+  - Can detect: ALL nearby entities
+  - Use case: close-quarters awareness
+```
+
+**Why This Design?**
+- **Creates strategic diversity:** Vision specialists (scouts) vs detection specialists (defenders)
+- **Genetic trade-offs:** Invest in vision → less points for combat
+- **Realistic limitations:** Can't see behind yourself (creates flanking opportunities)
+- **Computational efficiency:** Filter entities BEFORE processing (don't calculate utility for invisible targets)
+
+**Value Added:**
+- **Predator-prey dynamics:** Prey can flee before predator attacks (if they see it coming)
+- **Ambush strategies:** Attackers approach from blind spots
+- **Scout archetypes:** High-vision dots explore, find food, guide population
+- **Information warfare:** DNA insight gene reveals hidden attributes (genetic advantage)
+
+**Enterprise Term:** **Agent perception hierarchy with information filtering and genetic parameterization**
+
+---
+
+#### **3. Utility-Based Decision Engine**
+
+**WHY: Solve the "Multi-Objective Optimization Problem"**
+
+**Problem:** At any moment, a dot might need to:
+- Seek food (survival)
+- Attack enemy (opportunity)
+- Defend against threat (safety)
+- Reproduce (genetic legacy)
+- Explore unknown areas (discovery)
+
+How does an agent choose? Traditional if-then rules fail:
+```python
+# ❌ FAILS: Rigid priority system
+if hungry > 0.8:
+    seek_food()
+elif enemies_nearby:
+    attack()
+else:
+    explore()
+```
+
+This breaks when:
+- Hungry (0.8) but enemy has MORE food value than ground food
+- Enemy nearby but you're too weak to win (should flee, not attack)
+- Multiple high-priority goals conflict (starvation vs reproduction)
+
+**Solution: Utility Scoring System**
+
+```python
+# ✅ WORKS: Calculate value of each action, pick highest
+utilities = {
+    'seek_food': hunger * food_value * 10.0,
+    'attack': (enemy_weakness * expected_food_gain * own_strength) - risk,
+    'defend': threat_level * survival_value,
+    'explore': desperation_level + curiosity
+}
+
+best_action = max(utilities, key=utilities.get)
+```
+
+**Why This Design?**
+- **Context-sensitive:** Same situation → different actions for different dots
+- **Genetic modulation:** DNA genes modify utility calculations (aggressive dots weight attack higher)
+- **Risk-reward balance:** Considers BOTH gain and cost
+- **Emergent prioritization:** No hardcoded rules, priorities emerge from math
+
+**Value Added:**
+- **Complex behavior from simple rules:** Dots appear "intelligent" (context-aware decisions)
+- **Adaptive strategies:** Same dot behaves differently when strong vs weak
+- **Genetic diversity:** Different DNA profiles = different decision patterns
+- **Measurable rationality:** Can analyze "was this a good decision?" via utility scores
+
+**Enterprise Term:** **Multi-objective utility optimization with genetic parameter tuning**
+
+---
+
+#### **4. Brain & Memory System**
+
+**WHY: Solve the "Temporal Learning Problem"**
+
+**Problem:** Without memory, dots are reactive robots:
+- Can't remember which food sources are reliable
+- Can't recall which dots are aggressive threats
+- Can't learn from past mistakes
+- Can't build relationships (trust, rivalry)
+
+**Solution: Age-Gated Memory Capacity**
+
+```python
+memory_slots = 10 + (dna.brain_memory * 0.5) + (age * 0.5)
+# Young dot: 10 memories
+# Old dot (100s): 60 memories
+# Genius dot (high DNA + old): 100+ memories
+```
+
+**Why This Design?**
+- **Experience accumulation:** Older dots are "wiser" (more data points)
+- **Genetic intelligence:** High memory DNA = better decision-making
+- **Computational limits:** Can't store infinite memory (forces prioritization)
+- **Evolutionary pressure:** Dots that remember useful patterns survive longer
+
+**Value Added:**
+- **Learning from experience:** "Last time I attacked this dot, I lost → avoid"
+- **Pattern recognition:** "Meat gives more energy than grain → prioritize meat"
+- **Social intelligence:** "Dot #42 always defends → don't attack, seek weaker target"
+- **Economic memory (Dot 3.0):** "Gold price was $120, now $480 → scarcity spike, sell now!"
+
+**Why Age-Gated?**
+- **Biological realism:** Human brains develop capacity over time
+- **Anti-snowball:** Young dots aren't instantly outclassed by old dots
+- **Survival reward:** Living longer = cognitive advantage (incentivizes survival)
+
+**Enterprise Term:** **Temporal pattern recognition via age-gated experience buffers**
+
+---
+
+#### **5. DNA Genetic System**
+
+**WHY: Solve the "Strategy Discovery Problem"**
+
+**Problem:** How do you find the "best" strategy for survival in a complex, multi-agent environment?
+
+**Traditional Approach (fails):**
+- Trial & error by human (slow, biased by human assumptions)
+- Reinforcement learning (requires reward function design, unstable)
+- Hand-tuned parameters (doesn't adapt to environment changes)
+
+**Evolutionary Approach (succeeds):**
+- **Genetic encoding:** All strategies encoded as 100-point DNA budget
+- **Reproduction:** Successful agents pass genes to offspring
+- **Mutation:** Random variations create novel strategies
+- **Selection:** Bad strategies die, good strategies spread
+- **Emergent optimization:** No human intervention needed
+
+**Why 100-Point Budget?**
+
+**Problem:** Without limits, all dots would max everything:
+```python
+# ❌ Broken: No trade-offs
+attack = 50, defend = 50, vision = 50, speed = 50  # 200 points = overpowered
+```
+
+**Solution:** Finite budget forces **strategic trade-offs**:
+```python
+# ✅ Forced specialization
+Predator: attack=30, speed=25, vision=20 → 75% budget on hunting
+Gatherer: speed=20, vision=30, memory=15 → 65% budget on finding food
+Tank: defend=35, health=20, attack=15 → 70% budget on durability
+```
+
+**Why This Design?**
+- **Creates niches:** No single "best" build (rock-paper-scissors dynamics)
+- **Mimics biology:** Cheetahs are fast but fragile, elephants are strong but slow
+- **Emergent balance:** Populations self-regulate (predators overpopulate → prey extinct → predators starve)
+- **Measurable selection:** Can track which genes spread vs die out
+
+**Value Added:**
+- **Evolutionary arms race:** Predators evolve → prey evolve counters → predators adapt → endless cycle
+- **Population diversity:** Multiple viable strategies coexist
+- **Adaptive strategies:** Environment changes → new optimal builds emerge
+- **Research insight:** "Which genes dominate in scarcity?" (can test via data)
+
+**Enterprise Term:** **Parametric phenotype optimization via genetic algorithms with constrained resource allocation**
+
+---
+
+#### **6. Energy-Based Survival Economics**
+
+**WHY: Solve the "Survival Pressure Problem"**
+
+**Problem:** Without consequences, dots would behave randomly:
+- No incentive to find food
+- No penalty for idling
+- No urgency to reproduce
+- Simulation becomes static (boring)
+
+**Solution: Energy Depletion System**
+
+```python
+energy -= IDLE_COST * dt  # Passive drain (like metabolism)
+energy -= MOVEMENT_COST * dt  # Active drain (like exercise)
+energy -= ACTION_COST  # Task drain (like thinking)
+
+if energy == 0:
+    health -= STARVATION_DAMAGE * dt  # Death spiral
+```
+
+**Why This Design?**
+- **Urgency creation:** Time pressure forces action (can't idle forever)
+- **Risk-reward tradeoffs:** Moving costs energy → must decide if worth it
+- **Survival prioritization:** Hungry dots MUST seek food (or die) → behavior emerges
+- **Energy economy:** Food becomes currency of survival → creates competition
+
+**Value Added:**
+- **Emergent goal-seeking:** Dots naturally prioritize food (survival instinct)
+- **Strategic resource management:** "Save energy for combat" vs "explore while I can"
+- **Population regulation:** Overpopulation → food scarcity → starvation → population crash
+- **Behavioral urgency:** Starving dots move slower (realistic weakness) → predator targets
+
+**Why Starvation Cascade?**
+```
+Energy = 0 → Speed drops 90% → Can't escape predators → Die faster
+```
+This creates **death spirals** (realistic: weak animals are culled first).
+
+**Enterprise Term:** **Resource-constrained agent lifecycle with energy-economy modeling**
+
+---
+
+### **Dot AI 3.0 Extension: Why Add Economics?**
+
+#### **Research Question: Does Lootable Wealth Increase Violence?**
+
+**WHY: Solve the "Moral Evolution Hypothesis" Problem**
+
+**Scientific Hypothesis:**
+> "In resource-constrained environments with lootable assets, will artificial life evolve toward violent theft or peaceful trade?"
+
+**Why This Matters:**
+
+**Dot AI 2.0:** Violence is ONLY for food (kill → eat corpse)
+- Predictable: Attack when hungry, value = food nutrition (~30 energy)
+- Limited incentive: Food respawns → why kill when you can wait?
+
+**Dot AI 3.0:** Violence is for food AND wealth (kill → steal wallet)
+- Unpredictable: Attack value = food + wallet ($0-$1000+)
+- High incentive: Wallets don't respawn → theft is permanent gain
+- Moral choice: Trade peacefully (sustainable) vs rob violently (profitable but risky)
+
+**Hypothesis:**
+1. **Early game:** Low violence (no accumulated wealth yet)
+2. **Mid game:** Violence spike (wealth inequality creates targets)
+3. **Late game:** Either:
+   - **Path A:** Violence escalates → everyone dies (tragedy of commons)
+   - **Path B:** Peaceful strategies evolve → QoL selection pressure reduces violence
+   - **Path C:** Hybrid equilibrium → opportunistic violence when profitable
+
+**Why Add This System?**
+- **Real-world parallel:** Does poverty increase crime? Does wealth inequality drive conflict?
+- **Evolutionary test:** Can natural selection favor cooperation over predation?
+- **Economic theory:** Do property rights (wallet ownership) create incentive structures?
+- **Behavioral science:** Is violence learned or genetic? (DNA attack gene vs calculated motives)
+
+**Value Added:**
+- **Novel research question:** No other simulation tests lootable-economy violence dynamics
+- **Falsifiable hypothesis:** Can measure violence rates Gen1 vs Gen10
+- **Data-driven insights:** Export CSV → analyze correlation (wallet size × attack rate)
+- **Policy implications:** If violence increases → supports scarcity-conflict theory
+
+**Enterprise Term:** **Agent-based modeling of resource competition with exogenous wealth accumulation and behavioral evolution**
+
+---
+
+#### **Why Finite Resources?**
+
+**WHY: Solve the "Waiting Strategy Exploit" Problem**
+
+**Dot AI 2.0 Issue:**
+```python
+food_spawn_rate = 5 items/second  # Predictable
+food_respawn_timer = 30 seconds   # Learnable
+
+# Exploit discovered by dots:
+if no_food_visible():
+    idle()  # Wait for next spawn
+    # Energy cost < movement cost → waiting is optimal!
+```
+
+**Problem:** Dots learned to game the system (wait at spawn points).
+
+**Dot AI 3.0 Solution: Zero Respawn**
+```python
+gold_initial = 3 items  # Pre-loaded at sim start
+gold_respawn_rate = 0   # NEVER respawns
+
+# Forces urgency:
+if gold_remaining == 1:
+    price = base_price * (1 / 0.33) = 3x original
+    # MUST act now or resource extinct forever
+```
+
+**Why This Design?**
+- **Eliminates waiting exploit:** Can't predict when food appears (because it doesn't)
+- **Creates scarcity pressure:** Resource depletion is PERMANENT → urgency
+- **Realistic economics:** Real-world oil, gold, forests deplete (don't respawn)
+- **Forces competition:** Fast gatherers get items first → genetic advantage
+- **Market dynamics:** Scarcity → price increase → hoarding incentive
+
+**Value Added:**
+- **Urgency-driven behavior:** No idle waiting, constant action
+- **Scarcity economics:** Can study supply-demand in closed system
+- **Resource races:** "First to gold wins" strategy emerges
+- **Endgame scenarios:** What happens when gold extinct? (research question)
+
+**Enterprise Term:** **Non-renewable resource depletion modeling with scarcity-driven price dynamics**
+
+---
+
+#### **Why DNA Insight System?**
+
+**WHY: Solve the "Information Asymmetry in Social Interactions" Problem**
+
+**Problem:** In Dot AI 2.0, all dots are "black boxes":
+- Can't see enemy's combat strength (blind fighting)
+- Can't assess enemy's desperation level (unpredictable behavior)
+- Can't identify trustworthy trade partners (all dots look identical)
+- Can't distinguish calculated killers from random aggressors (no motive tracking)
+
+**Solution: Tiered Social Perception Gene**
+
+```python
+if dna_insight.points >= 25:  # Deep insight (expensive gene)
+    can_see = {
+        'combat_tendency': target.dna.attack.points,  # Is this dot dangerous?
+        'qol_score': target.get_qol_score(),          # Peaceful or violent history?
+        'behavior_class': "Lawful Merchant",          # Archetype classification
+        'motive_type': "calculated" vs "primitive",   # Strategic or desperate?
+        'recent_spending': $50,                        # Wealth display (flaunting)
+        'violence_history': 12 kills                   # Past aggression record
+    }
+    can_NOT_see = {
+        'wallet': $500,        # True net worth hidden (only visible on death)
+        'inventory': [gold, iron],  # Current holdings hidden
+        'current_action': "planning attack",  # Active thoughts hidden
+    }
+```
+
+**Why This Design?**
+- **Earned advantage:** Not all dots have equal information (investment required)
+- **Strategic decision-making:** Can avoid aggressive dots, target weak dots
+- **Bribery mechanics:** Can calculate appropriate bribe (insight → know desperation level)
+- **Trust networks:** Can identify reliable trade partners (peaceful history)
+- **Realistic social dynamics:** Like checking credit score, criminal record, reputation
+
+**Why Tiered (0 / 10pts / 25pts)?**
+- **Basic (0pts):** Blind (all dots look identical) → primitive behavior
+- **Medium (10pts):** See combat stats → can avoid dangerous dots
+- **Deep (25pts):** See full profile → can exploit psychological patterns
+
+**Value Added:**
+- **Intelligence arms race:** Insight gene spreads → population becomes "smarter"
+- **Wealth concealment strategies:** Dots learn to hide spending (counter-insight evolution)
+- **Behavioral prediction:** "This dot killed 12 others → likely to attack me → offer bribe"
+- **Research question:** "Do populations with high insight have LESS violence?" (can test!)
+
+**Enterprise Term:** **Asymmetric information disclosure with tiered access control and behavioral pattern classification**
+
+---
+
+#### **Why Bribery Mechanics?**
+
+**WHY: Solve the "Binary Interaction Trap" Problem**
+
+**Problem:** Without bribery, dot interactions are binary:
+```python
+if aggressive_dot_nearby:
+    either:
+        A) Attack (violent outcome)
+        B) Flee (no interaction)
+    # No middle ground! No negotiation!
+```
+
+**Real-world flaw:** Humans don't just fight or flee—we **negotiate**.
+
+**Solution: Economic Conflict Resolution**
+
+```python
+def calculate_bribe(victim, aggressor):
+    if victim.dna_insight.enabled:
+        # Can see aggressor's desperation
+        expected_attack_value = aggressor.expected_gain_from_attack(victim)
+        bribe_offer = expected_attack_value * 1.2  # Offer 20% more
+    else:
+        # Blind guess
+        bribe_offer = victim.wallet * 0.3  # Guess 30% of own wealth
+    
+    # Aggressor decides: accept bribe or attack?
+    if bribe_offer >= expected_attack_value:
+        return "BRIBE_ACCEPTED"  # Peaceful resolution!
+    else:
+        return "ATTACK_ANYWAY"   # Insufficient offer
+```
+
+**Why This Design?**
+- **Creates third option:** Fight, flee, OR pay (realistic conflict resolution)
+- **Insight advantage:** Smart dots bribe accurately (wasteful dots overbribe, cheap dots get attacked)
+- **Economic class dynamics:** Rich dots can afford peace, poor dots must fight
+- **Emergent pacifism:** If bribery succeeds → non-violent strategies spread
+
+**Value Added:**
+- **Violence reduction pathway:** Peaceful dots can survive via payment
+- **Wealth utility:** Money isn't just for trade → also buys safety
+- **Strategic depth:** "Should I save money or buy protection?"
+- **Research question:** "In Gen1 vs Gen10, what % of conflicts resolve via bribery?" (can measure evolution of pacifism)
+
+**Why Track Bribery Success Rate?**
+```python
+bribes_accepted / (bribes_accepted + bribes_rejected) = success_rate
+```
+- **Measures negotiation effectiveness:** Are dots learning optimal bribe amounts?
+- **Tests intelligence evolution:** Does success rate increase over generations?
+- **Identifies equilibrium:** What's the "market rate" for avoiding violence?
+
+**Enterprise Term:** **Agent-to-agent conflict resolution via economic negotiation with information-asymmetry dynamics**
+
+---
+
+### **Why Professional/Enterprise Language Matters**
+
+**Problem:** Simulation work is often dismissed as "games" or "toys."
+
+**Solution:** Frame research using **industry-standard terminology**:
+
+| **Casual Term** | **Enterprise Equivalent** | **Why This Matters** |
+|----------------|--------------------------|---------------------|
+| "Dots move toward food" | **Spatial optimization via vector field navigation** | Connects to robotics, pathfinding research |
+| "Dots see other dots" | **Agent perception hierarchy with information filtering** | Relates to sensor fusion, IoT networks |
+| "Dots decide what to do" | **Multi-objective utility optimization** | Links to operations research, decision science |
+| "Dots remember stuff" | **Temporal pattern recognition via experience buffers** | Connects to machine learning, time-series analysis |
+| "Dots evolve better strategies" | **Parametric phenotype optimization via genetic algorithms** | Relates to evolutionary computation, hyperparameter tuning |
+| "Dots compete for resources" | **Resource-constrained agent lifecycle modeling** | Links to economic theory, game theory |
+| "Dots trade or fight" | **Agent-based modeling of resource competition** | Connects to econometrics, behavioral economics |
+
+**Value Added:**
+- **Academic credibility:** Can publish findings in journals (not just blog posts)
+- **Industry relevance:** Skills transfer to supply chain, market simulation, AI research
+- **Collaboration opportunities:** Other researchers recognize methodologies
+- **Problem-solving framework:** Can apply these patterns to real-world issues (logistics, economics, policy)
+
+---
+
+### **Summary: Design Philosophy**
+
+**Every system exists to solve a specific problem:**
+1. **Vectors:** Solve spatial navigation without pathfinding AI
+2. **Perception:** Solve information asymmetry without perfect knowledge
+3. **Utility:** Solve multi-objective decisions without if-then rules
+4. **Memory:** Solve temporal learning without explicit training
+5. **DNA:** Solve strategy discovery without human design
+6. **Energy:** Solve behavioral urgency without scripted goals
+7. **Economics:** Solve moral evolution hypothesis (violence vs trade)
+8. **Finite resources:** Solve waiting exploits, create scarcity pressure
+9. **Insight:** Solve social prediction, enable strategic interaction
+10. **Bribery:** Solve binary conflict trap, enable negotiation
+
+**Guiding Principle:**
+> "Create simple rules that force complex problems, then let evolution discover optimal solutions."
+
+We don't program intelligence—we create **conditions where intelligence is the only survival strategy**.
 
 ---
 
@@ -2098,7 +3869,164 @@ class EconomicMetrics:
 
 ## 🔬 Research Questions
 
-### **Commodity Market Dynamics**
+### **🔪 The Core Experiment: Violence vs Economics**
+
+**PRIMARY HYPOTHESIS:** Does a micro-economy with lootable wallets increase murder rates?
+
+1. **Baseline Violence Rate (Dot AI 2.0)**
+   - Combat kills driven by food value only
+   - Estimated: X kills per 100 dot-ticks
+
+2. **Hypothesis: Economic Violence Amplification**
+   - With lootable wallets, rich dots become high-value targets
+   - Will dots kill MORE when wallets contain $500 vs corpses worth $30 food?
+   - **Prediction:** Violence increases as wealth inequality rises
+
+3. **Civil vs Criminal Strategies**
+   - **Civil:** Gather → Trade → Profit (sustainable, slow, peaceful)
+   - **Criminal:** Hoard→ Wait → Attack rich dots → Steal wallets (risky, fast, violent)
+   - Which strategy dominates in finite resource collapse?
+
+4. **Quality of Life Impact**
+   - Do violent dots (high kills) survive longer but score lower QoL?
+   - Do peaceful traders survive despite lower immediate resources?
+   - Does QoL selection pressure reduce violence over generations?
+
+5. **Stimulus & Violence Correlation**
+   - Does free money (stimulus) reduce murder (can afford food without theft)?
+   - Or enable violence (extra cash allows risky combat attempts)?
+   - Inflation effect: Does eroded purchasing power drive desperate violence?
+
+### **📈 Finite Resource Dynamics**
+
+6. **Scarcity-Driven Behavior**
+   - Early game (resources abundant): More trade or less trade?
+   - Late game (resources depleted): Violence spike or cooperation?
+   - **Gold extinction:** What happens when gold supply → 0?
+
+7. **Hoarding vs Market Timing**
+   - Will dots hoard finite metals early, sell at price peaks?
+   - Or fail to recognize finite scarcity (no respawn learning)?
+   - Can dots "solve" market timing in restricted setting?
+
+8. **Waiting Strategy Elimination**
+   - Dot AI 2.0 issue: Dots learned spawn patterns, waited for food
+   - Does finite resource economy force active gathering?
+   - Measure: idle time per dot (should decrease)
+
+### **💰 Commodity Market Dynamics**
+
+9. **5-Tier Metal Scarcity Cascade**
+   - Do prices cascade: Scrap → Iron → Bronze → Silver → Gold?
+   - As gold depletes, does demand shift to silver?
+   - **Substitution effects** in artificial economy
+
+10. **Food Substitution Effects**
+    - Will dots learn to eat grain when meat is expensive?
+    - Do nutritional differences create wealth tiers?
+    - Does meat hoarding create artificial famines?
+
+### **🏦 Economic Strategy Evolution**
+
+11. **Role Survival Rates**
+    - **Traders** (frequent small stimulus): Survive better in scarcity?
+    - **Investors** (rare large stimulus): Accumulate more wealth?
+    - **Generalists**: Balanced approach win long-term?
+
+12. **Gathering vs Trading Strategies**
+    - Is it better to gather (free, slow) or buy (paid, fast)?
+    - Do high gather_speed genes dominate early game?
+    - Do traders outcompete gatherers in mature economies?
+
+13. **Upgrade Investment Timing**
+    - Early upgrades (risky, starve trying) vs Late upgrades (safe, already strong)?
+    - Does 120 DNA points = 20% better outcomes = ROI positive?
+    - Can dots reach "escape velocity" with DNA expansion?
+
+### **💸 Wealth Inequality & Collapse**
+
+14. **Gini Coefficient Thresholds**
+    - What wealth inequality level causes market breakdown?
+    - Does high Gini (0.7+) predict violence spikes?
+    - Can wealth redistribution (stimulus) prevent collapse?
+
+15. **Deflation vs Inflation Spirals**
+    - Finite resources = deflationary (goods decrease)
+    - Stimulus payments = inflationary (money increases)
+    - Which force dominates? Net inflation or deflation?
+
+16. **Monopoly Formation**
+    - Can one dot monopolize gold/silver?
+    - Does monopolist profit or kill own market?
+    - Wealth concentration → extinction?
+
+### **📊 Data Analysis Potential**
+
+17. **Economic Patterns**
+    - Price correlation matrices (gold vs food vs metals)
+    - Wealth distribution evolution (Lorenz curves)
+    - Violence-wealth scatter plots (do rich dots get killed more?)
+
+18. **Strategic Archetype Discovery**
+    - Cluster analysis on dot behavior patterns
+    - Identify: Peaceful Merchants, Violent Raiders, Patient Hoarders
+    - Track archetype survival rates over generations
+
+19. **Market Timing Success**
+    - Can dots discover buy-low-sell-high?
+    - Correlation: early hoarding → late wealth?
+    - Do champion dots exhibit market timing patterns?
+
+20. **Moral Evolution**
+    - Does peaceful trade evolve over violent theft?
+    - Or does scarcity drive ever-increasing violence?
+    - **The dark question:** What does automation choose when restricted?
+
+### **🧠 Social Intelligence & Bribery (NEW)**
+
+21. **DNA Insight Survival Advantage**
+    - Do dots with `dna_insight` gene live longer?
+    - Can seeing others' combat tendency prevent attacks?
+    - Does insight gene spread across generations?
+
+22. **Bribery Success Rates**
+    - What % of bribe offers are accepted vs rejected?
+    - Does bribe amount correlate with success?
+    - Are desperate aggressors (low energy/wallet) more or less likely to accept bribes?
+
+23. **Calculated vs Primitive Violence**
+    - Can we distinguish strategic killing (target rich dots) from survival instinct?
+    - Do dots with high memory + insight kill more selectively?
+    - Does primitive violence (low memory, no insight) target random dots?
+
+24. **Behavior Archetype Survival**
+    - Which survives better: "Lawful Merchant" or "Violent Raider"?
+    - Does "Desperate Survivor" archetype emerge in late generations?
+    - Can we predict dot survival based on behavior_class?
+
+25. **Visible Wealth Exploitation**
+    - Do high spenders (high recent_spending) get attacked more?
+    - Can dots learn to hide wealth (reduce spending visibility)?
+    - Does wealth_visibility evolve toward concealment?
+
+26. **Motive Type Evolution**
+    - Do populations shift from "primitive" → "calculated" over generations?
+    - Does resource scarcity increase "primitive" motive_type (desperation)?
+    - What % of Gen 1 vs Gen 10 are "calculated"?
+
+27. **Trust & Repeated Interactions**
+    - Do dots trade repeatedly with same partners (trust building)?
+    - Does peaceful history reduce future attack probability?
+    - Can we measure "reputation" emergence?
+
+28. **Intelligence Arms Race**
+    - As DNA insight spreads, do countermeasures evolve (wealth hiding)?
+    - Does high insight create wealth inequality (information advantage)?
+    - Winner: transparent society or surveillance state?
+
+---
+
+### **Commodity Market Dynamics (OLD - kept for reference)**
 
 1. **Food Substitution Effects**
    - Will dots learn to eat grain when meat is expensive?
@@ -2294,19 +4222,99 @@ class EconomicMetrics:
 
 ### **Evolution from 2.0 → 3.0**
 
-| **Aspect** | **Dot AI 2.0** | **Dot AI 3.0** |
-|------------|----------------|----------------|
-| **Survival** | Combat & food gathering | Food purchasing & market trading |
-| **Competition** | Attack/defend actions | Buy/sell/hoard strategies |
-| **Death** | Starvation or combat damage | Starvation or bankruptcy |
-| **Reproduction** | Sexual/asexual with energy cost | Mergers with capital requirements |
-| **Resources** | Energy + Health | Energy + Health + Wallet + Inventory |
+| **Aspect** | **Dot AI 2.0** | **Dot AI 3.0 (HYBRID)** |
+|------------|----------------|-------------------------|
+| **Survival** | Combat & food gathering | Combat + Food purchasing + Market trading |
+| **Competition** | Attack/defend only | Attack/defend + Buy/sell/hoard strategies |
+| **Death** | Starvation or combat damage | Starvation OR bankruptcy OR combat damage |
+| **Wealth** | N/A | Wallet + Inventory (lootable on death) |
+| **Violence Incentive** | Food value (~$30) | Food value + FULL WALLET ($0-$1000+) |
+| **Resources** | Energy + Health | Energy + Health + Wallet + Inventory + QoL |
+| **Resource Type** | Renewable (respawn) | **FINITE (no respawn)** - scarcity-driven |
+| **Stimulus** | None | **UBI payments** (role-based, creates inflation) |
+| **Fitness** | Lifetime only | **Lifetime > QoL > Net Worth** (3-tier) |
 | **Complexity** | DNA points from eating | DNA points from upgrade purchases |
 | **Visualization** | Simple circles | Animated sprites with status overlays |
-| **Emergent Behavior** | Predator/prey dynamics | Market manipulation & boom/bust cycles |
+| **Emergent Behavior** | Predator/prey dynamics | **Violence vs Trade dilemma** + Market timing + Wealth inequality |
+| **Data Export** | Basic logs | **CSV/JSON for economic analysis** |
+
+---
+
+## 🎬 VISUAL SUMMARY: What Success Looks Like
+
+```
+┌──────────────────────────────────────────────────────────────────────────┐
+│                    DOT AI 3.0 SUCCESS SCENARIO                           │
+├──────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  GENERATION 1: Chaos & Discovery                                        │
+│    • Resources abundant (200 scrap, 80 iron, 30 bronze, 10 silver, 3 gold) │
+│    • Dots gather everything, eat most food                              │
+│    • Behavior: Mostly primitive (low memory, no insight)                │
+│    • Some dots try trading, others attack                               │
+│    • Violence: 15 kills, avg wallet: $0.50                              │
+│    • DNA Insight: 0% of population (gene not yet evolved)               │
+│    • Bribes attempted: 0 (mechanic not discovered)                      │
+│    • Gold price: $60,000 (3 available, realistic pricing)               │
+│    • Champion: Dot #42 (120s life, 65 QoL, $2 wealth, primitive motive) │
+│                                                                          │
+│  GENERATION 5: Emerging Strategies                                      │
+│    • Resources depleting (50 scrap, 20 iron, 5 bronze, 2 silver, 1 gold) │
+│    • Gold price: $60,000 → $180,000 (scarcity spike)                    │
+│    • Role separation: 40% traders, 30% investors, 30% generalists       │
+│    • Behavior: Mix of calculated traders and opportunistic raiders      │
+│    • Violence: 25 kills (+67% increase!), avg wallet: $15               │
+│    • DNA Insight: 20% of population (gene spreading - survival advantage) │
+│    • Bribes attempted: 12, successful: 8 (dots learning negotiation)    │
+│    • Behavior classes emerging: "Lawful Merchant", "Opportunistic Trader" │
+│    • Wealthy dots (high recent_spending) targeted more often            │
+│    • Champion: Dot #178 (205s life, 82 QoL, $65 wealth, calculated motive) │
+│        - Peaceful trader with DNA insight, paid 3 bribes to avoid combat │
+│                                                                          │
+│  GENERATION 10: Resource Collapse                                       │
+│    • Critical scarcity (0 gold, 0 silver, 3 bronze, 5 iron, 10 scrap)  │
+│    • Food nearly gone, dots starving                                    │
+│    • Violence: 45 kills (+200% from Gen1!), avg wallet: $8              │
+│    • DNA Insight: 40% of population (highly evolved trait)              │
+│    • Bribes attempted: 20, successful: 15 (critical survival tactic)    │
+│    • Behavior shift: "Desperate Survivor" archetype dominates (60%)     │
+│    • Motive regression: Calculated → Primitive (scarcity-driven desperation) │
+│    • Inflation: 200% (prices 3x original due to stimulus)               │
+│    • Wealth concentration: Top 3 dots own 70% of remaining resources    │
+│    • Peaceful traders survive better (high QoL = fitness advantage)     │
+│    • Champion: Dot #289 (180s life, 91 QoL, $40 wealth, calculated motive) │
+│        - Extreme hoarder with max DNA insight, 0 kills, 12 bribes paid  │
+│        - Strategy: Hide wealth, pay off aggressors, sell at peaks       │
+│                                                                          │
+│  DATA ANALYSIS REVEALS:                                                 │
+│    ✓ Violence increased 3x as wallet values rose (lootable wealth!)    │
+│    ✓ DNA insight gene spread to 40% (strong survival advantage)        │
+│    ✓ Bribery success rate: 75% (peaceful conflict resolution works)    │
+│    ✓ QoL selection reduced violence in later generations (but scarcity overrode) │
+│    ✓ Hybrid strategies (trade + opportunistic theft) dominated mid-game │
+│    ✓ Calculated motives (25%) outsurvived primitive motives (75%)      │
+│    ✓ Dots learned to hoard early, sell late (market timing emerged)    │
+│    ✓ Stimulus created 200% inflation over 10 generations               │
+│    ✓ Gini coefficient: 0.35 → 0.72 (wealth inequality exploded)        │
+│    ✓ Behavior archetypes identified: 8 distinct classes                │
+│    ✓ Visible wealth (recent_spending) correlated with attacks (r=0.68) │
+│                                                                          │
+│  THE ANSWER:                                                            │
+│    YES - Lootable wallets increased violence significantly             │
+│    YES - Social intelligence (DNA insight) provided survival advantage │
+│    YES - Bribery mechanics worked (75% success rate)                   │
+│    BUT - QoL selection pressure evolved peaceful strategies too        │
+│    BUT - Extreme scarcity caused regression to primitive violence      │
+│    Automation chose: HYBRID (trade when safe, steal when profitable,   │
+│                             bribe when threatened, hoard when possible) │
+│                                                                          │
+└──────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
 **END OF PLAN**
 
-This plan maintains the core strengths of Dot AI 2.0 (DNA evolution, utility-based AI, emergent complexity) while completely transforming the survival mechanics into a **commodity-focused economic simulation**. The AI principles remain unchanged - only the inputs, actions, and objectives differ. Dots now compete through **economic warfare** rather than physical combat, creating a unique "Wall Street meets evolution simulator" experience.
+This plan maintains the core strengths of Dot AI 2.0 (DNA evolution, utility-based AI, emergent complexity) while adding a **complete economic layer ALONGSIDE combat**. The key innovation is the **moral experiment**: dots must choose between peaceful trade (sustainable, high QoL) and violent theft (profitable, low QoL) in a finite resource environment with lootable wallets. The addition of **DNA insight** (social intelligence), **bribery mechanics**, and **behavior classification** creates a sophisticated social dynamics layer where dots can research each other's backgrounds, negotiate to avoid violence, and develop strategic personas. The 3-tier fitness system creates evolutionary pressure toward long, peaceful, wealthy lives - but will scarcity override that pressure?
+
+**Updated:** March 14, 2026 - Hybrid combat-economics design with finite resources, realistic commodity pricing (metric ton scaling), stimulus payments, wallet looting, DNA insight system, bribery mechanics, behavior classification (primitive vs calculated motives), QoL tracking, and comprehensive data export for economic and social analysis.

@@ -1,10 +1,125 @@
-# 🧬 Dot AI 2.0: The Ecosystem Evolution! 🌍
+# 🌍 Dot AI 3.0: The Economic Collapse Experiment 💰⚔️
 
-## The Dots Are Back... and They're Smarter Than Ever! 🚀
+## Why Does Dot AI 3.0 Exist?
 
-Remember our little pathfinding dot? Well, it just got a **MAJOR UPGRADE**! 🎉 Welcome to **Dot AI 2.0** - where dots don't just find paths anymore... they **survive, hunt, reproduce, and evolve** in a complete living ecosystem!
+**Dot AI 3.0** is not a game. It's a **behavioral research simulation** designed to answer uncomfortable questions about artificial life, economics, and violence.
 
-If you loved the original Dot AI project, think of this as your **Advanced Masterclass in Artificial Life**. 🎓 We've gone from simple pathfinding to a full simulation of **natural selection, survival of the fittest, and emergent intelligent behavior**!
+### **The Central Research Questions:**
+
+1. **💀 Does lootable wealth increase murder rates?**
+   - In Dot AI 2.0, dots killed for survival (food). In 3.0, dots can kill for **money**.
+   - If wallets are lootable (100% theft on kill), will violence increase compared to pure survival combat?
+   - **Hypothesis:** Economic incentive will create "robbery" behavior distinct from hunger-driven predation.
+
+2. **🤝 Can artificial life negotiate sub-lethal conflict?**
+   - The **Mercy Dynamic**: Victims can "open their wallet" and trickle payment to attackers.
+   - Will attackers accept partial payment and retreat, or always escalate to murder?
+   - **Hypothesis:** Dots will evolve "mugging" strategies (extort until sub-goal met) vs "murder" strategies (kill for full wallet).
+
+3. **📊 Does finite scarcity create different economic roles than renewable resources?**
+   - **Traders** (resource valuation specialists) vs **Investors** (capital accumulation specialists)
+   - With zero respawn resources, which strategy survives resource collapse?
+   - **Hypothesis:** Early game favors traders (grab & flip), late game favors investors (hoard & monopolize).
+
+4. **💵 Do stimulus payments reduce or enable violence?**
+   - Universal Basic Income (role-based: traders $0.10/20sec, investors $0.50/100sec)
+   - Does free money make dots peaceful (can afford food → less murder), or more violent (larger wallets → attractive targets)?
+   - **Hypothesis:** Stimulus creates wealth inequality → violent redistribution via robbery.
+
+5. **🧠 Does social intelligence (DNA insight) reduce violence or weaponize it?**
+   - Some dots can "research" others (see combat tendency, wealth patterns, violence history)
+   - Will this enable peaceful conflict avoidance (bribe dangerous dots), or targeted predation (hunt rich victims)?
+   - **Hypothesis:** Intelligence arms race - predators hunt efficiently, prey hide effectively.
+
+6. **⚖️ What Quality of Life emerges in hybrid combat-economic systems?**
+   - Fitness = Longevity > QoL > Net Worth (in that order)
+   - QoL Score = avg_health × (1 - attack_frequency) × peaceful_ratio
+   - Will evolution favor peaceful traders or violent robbers when wallets are lootable?
+   - **Hypothesis:** Early violence dominates, but peaceful strategies win long-term (raiders kill each other off).
+
+---
+
+## **What Changed from Dot AI 2.0 → 3.0?**
+
+**Dot AI 2.0:** Pure survival simulation (kill for food, reproduce, evolve)
+
+**Dot AI 3.0:** Hybrid combat-economic ecosystem with:
+- **Economics layer** (wallets, buying/selling, market timing, hoarding)
+- **Lootable wallets** (kill → steal 100% of victim's cash)
+- **Finite resources** (realistic metric ton pricing: gold 300,000x more valuable than scrap, zero respawn)
+- **Stimulus payments** (UBI creates inflation + wealth inequality)
+- **DNA insight system** (social intelligence: see other dots' backgrounds, bribe attackers)
+- **Mercy Dynamic** (wallet trickle bribery: pay attacker incrementally to avoid death)
+- **Behavior tracking** (classify dots as "Lawful Trader", "Violent Raider", "Desperate Survivor")
+- **Quality of Life metric** (penalize violent lifestyles in fitness calculation)
+
+---
+
+## **The Experiment Design**
+
+```
+┌────────────────────────────────────────────────────────────────┐
+│  HYPOTHESIS: Economic Incentive Increases Violence              │
+│                                                                 │
+│  Setup:                                                         │
+│    • 50 dots, finite resources, lootable wallets               │
+│    • Dots can: trade, hoard, rob, murder, bribe               │
+│    • Stimulus payments create steady wealth inequality         │
+│    • DNA evolution selects for surviving strategies            │
+│                                                                 │
+│  Measurements:                                                  │
+│    • Violence rate (kills per minute)                          │
+│    • Wealth inequality (Gini coefficient)                      │
+│    • Bribery success rate (mercy dynamic acceptance)           │
+│    • Trader vs Investor survival (role fitness)                │
+│    • QoL distribution (peaceful vs violent lives)              │
+│                                                                 │
+│  Expected Emergent Behaviors:                                   │
+│    • "Mugging" (attack until $X paid, then retreat)           │
+│    • "Robbery" (kill weak targets for wallets)                │
+│    • "Protection rackets" (repeated extortion via mercy)      │
+│    • "Hiding wealth" (convert cash to inventory to avoid rob) │
+│    • "Monopoly warfare" (investors buy all gold, starve traders)│
+│    • "Desperate crime" (bankrupt dots murder for survival)    │
+└────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## **What Are We Really Studying?**
+
+This simulation explores **how resource scarcity and economic inequality shape social behavior in artificial life**.
+
+### Real-World Parallels:
+- **Crime economics:** Do robberies target wealth concentration or desperate poverty?
+- **Evolutionary economics:** Which strategies survive finite resource collapse?
+- **Social contract theory:** Can cooperation emerge without external enforcement?
+- **Monetary policy:** Do handouts reduce violence (safety net) or enable it (inflated targets)?
+- **Information asymmetry:** Does knowledge of others' wealth/danger reduce or escalate conflict?
+
+### Why Use AI/Evolution?
+
+Traditional economics assumes **rational actors maximizing utility**. Evolutionary systems discover strategies **we never anticipated**. By letting DNA compete in scarcity, we might observe:
+- Strategies that outperform textbook economics
+- Emergent social contracts (bribery norms, trust networks)
+- Moral hazards (stimulus dependency, violence addiction)
+- Black swan behaviors (cascading bankruptcies, extinction spirals)
+
+---
+
+## **The Dark Question**
+
+At its core, Dot AI 3.0 asks:
+
+> **"If survival requires violence, but wealth enables theft, which strategy does evolution favor?"**
+
+Will the simulation produce:
+- **A) Peaceful traders** (mutual cooperation, wealth through exchange)
+- **B) Violent robbers** (predation, wealth through murder)
+- **C) Hybrid strategies** (trade when weak, rob when strong)
+- **D) Extinction** (everyone kills each other, no survivors)
+
+**We don't know the answer.** That's why we're running the experiment.
 
 ---
 

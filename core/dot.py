@@ -38,6 +38,9 @@ class Dot:
         self.attack_target = None
         self.mate_target = None  # ID of dot being sought for mating
         
+        # Economic state (3.0)
+        self.current_state = "NORMAL"  # or "PAYING_TRIBUTE", "TRADING", etc.
+        
         # Evolutionary tracking
         self.offspring_count = 0  # Track reproductive success
         
@@ -49,6 +52,22 @@ class Dot:
         Main update loop for the dot.
         Returns offspring data dict if reproduction occurred, None otherwise.
         """
+        # 0. Update mercy dynamic (3.0) - process wallet trickle if active
+        mercy_payment = self.resources.update_mercy_dynamic(dt)
+        if mercy_payment:
+            # Find attacker and transfer money
+            attacker_id = mercy_payment["attacker_id"]
+            payment = mercy_payment["payment"]
+            
+            # Transfer to attacker (world will handle this in simulation.py)
+            world_state["mercy_payments"] = world_state.get("mercy_payments", [])
+            world_state["mercy_payments"].append({
+                "victim_id": self.id,
+                "attacker_id": attacker_id,
+                "payment": payment,
+                "total_paid": mercy_payment["total_paid"]
+            })
+        
         # 1. Deplete energy based on movement
         speed = math.sqrt(self.velocity[0]**2 + self.velocity[1]**2)
         is_moving = speed > 0.1
