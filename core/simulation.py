@@ -51,10 +51,15 @@ through millions of tiny survival decisions over many generations.
 
 import random
 import math
+import time
 from .dot import Dot
 from .food import Food
 from .dna import DNAProfile
 from .metrics_logger import MetricsLogger
+
+# Dot AI 3.0 - Economic Systems
+from .market import Market
+from .stimulus import StimulusSystem
 
 
 class DotSimulation:
@@ -166,6 +171,30 @@ class DotSimulation:
             'peak_population': 0,      # Max dots alive at once
             'avg_dna_snapshots': []    # DNA evolution over time
         }
+        
+        # ===== ECONOMIC SYSTEMS (3.0) =====
+        self.enable_economics = config.get('enable_economics', False)
+        self.enable_market = config.get('enable_market', False)
+        self.enable_stimulus = config.get('enable_stimulus', False)
+        self.enable_interest = config.get('enable_interest', False)
+        
+        # Market system
+        self.market = None
+        if self.enable_market:
+            commodity_multiplier = config.get('commodity_multiplier', 1.0)
+            self.market = Market(world_width=self.width, world_height=self.height)
+            print(f"[ECONOMICS] Market system enabled (commodity multiplier: {commodity_multiplier}x)")
+        
+        # Stimulus payment system
+        self.stimulus_system = None
+        if self.enable_stimulus:
+            self.stimulus_system = StimulusSystem()
+            print("[ECONOMICS] Stimulus payment system enabled (UBI)")
+        
+        # Economic tracking
+        self.total_stimulus_paid = 0.0
+        self.total_interest_paid = 0.0
+        self.total_trades = 0
     
     def initialize(self):
         """
@@ -183,8 +212,9 @@ class DotSimulation:
             y = random.randint(margin, self.height - margin)
             pos = [x, y]
             
-            # Create DNA (slight variations)
-            dna = DNAProfile(total_points=100)
+            # Create DNA (use config budget if specified, default 100 for 2.0)
+            dna_budget = self.config.get('dna_budget', 100)
+            dna = DNAProfile(total_points=dna_budget)
             
             # Spawn dot
             dot = Dot(self.next_dot_id, pos, dna)
@@ -213,6 +243,12 @@ class DotSimulation:
             self.spawn_food()
         
         print(f"✅ Spawned {num_food} food items")
+        
+        # Spawn commodities (3.0)
+        if self.market and self.config.get('spawn_commodities', True):
+            multiplier = self.config.get('commodity_multiplier', 1.0)
+            self.market.spawn_commodities(multiplier=multiplier)
+            print(f"✅ Spawned {len(self.market.world_commodities)} commodities")
     
     def spawn_food(self, position=None):
         """Spawn a single food item"""
@@ -623,7 +659,7 @@ class DotSimulation:
         Get serialized world state for dot decision-making
         Simplified view of the world
         """
-        return {
+        state = {
             'dots': [d.serialize() for d in self.dots],
             'food': [f.serialize() for f in self.food],
             'time': self.time_elapsed,
@@ -632,6 +668,13 @@ class DotSimulation:
                 'height': self.height
             }
         }
+        
+        # Add economic data (3.0)
+        if self.market:
+            state['market'] = self.market
+            state['commodities'] = self.market.world_commodities
+        
+        return state
     
     def get_state(self):
         """

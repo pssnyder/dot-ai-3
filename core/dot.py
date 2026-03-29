@@ -1,16 +1,25 @@
 """
-Dot entity implementation for DOT AI 2.0
+Dot entity implementation for DOT AI 2.0/3.0
 Autonomous agent with DNA-based abilities, brain, resources, and senses.
+
+DOT AI 3.0 ADDITIONS:
+- Economic state tracking
+- Stimulus payment integration
+- Interest accrual
 """
 
 import math
 import random
+import time
 from typing import Optional, Tuple, Dict, Any, List
 from .dna import DNAProfile
 from .brain import Brain
 from .resources import Resources
 from .senses import PerceptionSystem
 from .actions import ActionManager
+
+# Dot AI 3.0 - Economic Systems
+from .stimulus import StimulusPayment
 
 
 class Dot:
@@ -41,6 +50,12 @@ class Dot:
         # Economic state (3.0)
         self.current_state = "NORMAL"  # or "PAYING_TRIBUTE", "TRADING", etc.
         
+        # Stimulus payments (3.0)
+        self.stimulus_payment = None
+        if hasattr(dna, 'buy_power') or hasattr(dna, 'hold_power'):
+            # Only initialize stimulus if economic genes exist
+            self.stimulus_payment = StimulusPayment(self)
+        
         # Evolutionary tracking
         self.offspring_count = 0  # Track reproductive success
         
@@ -67,6 +82,32 @@ class Dot:
                 "payment": payment,
                 "total_paid": mercy_payment["total_paid"]
             })
+        
+        # 0.5. Apply interest (3.0) - passive income for investors
+        if hasattr(self.resources, 'apply_interest'):
+            interest_result = self.resources.apply_interest(dt)
+            if interest_result['interest_earned'] > 0:
+                # Track in world state for metrics
+                world_state["interest_payments"] = world_state.get("interest_payments", [])
+                world_state["interest_payments"].append({
+                    "dot_id": self.id,
+                    "interest": interest_result['interest_earned'],
+                    "balance": interest_result['new_balance']
+                })
+        
+        # 0.6. Check stimulus payment (3.0) - UBI income
+        if self.stimulus_payment:
+            current_time = time.time()
+            stimulus_result = self.stimulus_payment.check_payment(current_time)
+            if stimulus_result['result'] == 'PAYMENT_DELIVERED':
+                # Track in world state for metrics
+                world_state["stimulus_payments"] = world_state.get("stimulus_payments", [])
+                world_state["stimulus_payments"].append({
+                    "dot_id": self.id,
+                    "role": self.stimulus_payment.role,
+                    "amount": stimulus_result['amount'],
+                    "total_received": stimulus_result['total_received']
+                })
         
         # 1. Deplete energy based on movement
         speed = math.sqrt(self.velocity[0]**2 + self.velocity[1]**2)

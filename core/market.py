@@ -200,9 +200,12 @@ class Market:
             energy_value=0
         )
     
-    def spawn_commodities(self):
+    def spawn_commodities(self, multiplier=1.0):
         """
         Spawn all commodities in the world at simulation start.
+        
+        Args:
+            multiplier: Scale commodity quantities (default 1.0, use 0.5 for scarcity testing)
         
         Distribution:
         - Food: Scattered evenly
@@ -213,7 +216,8 @@ class Market:
         self.world_commodities = []
         
         for commodity_name, commodity_type in self.commodity_types.items():
-            total = commodity_type.total_supply
+            # Apply multiplier to total supply (but keep at least 1)
+            total = max(1, int(commodity_type.total_supply * multiplier))
             
             # Spawn each unit
             for i in range(total):
@@ -225,9 +229,10 @@ class Market:
                 commodity = Commodity(commodity_name, [x, y], quantity=1)
                 self.world_commodities.append(commodity)
         
-        print(f"[MARKET] Spawned {len(self.world_commodities)} commodities")
+        print(f"[MARKET] Spawned {len(self.world_commodities)} commodities (multiplier: {multiplier}x)")
         for name, ctype in self.commodity_types.items():
-            print(f"  {name}: {ctype.total_supply} units @ ${ctype.base_price:.2f} each")
+            actual_spawned = int(ctype.total_supply * multiplier)
+            print(f"  {name}: {actual_spawned} units @ ${ctype.base_price:.2f} each")
     
     def get_price(self, commodity_name):
         """Get current market price for commodity"""
