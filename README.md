@@ -1,3 +1,13 @@
+---
+project:
+  id: dot-ai-3
+  name: Dot AI 3.0
+  date: 2026-03-27
+  status: in-progress
+  tags: [game, AI, simulation]
+  priority: medium
+  next_action: None
+---
 # 🌍 Dot AI 3.0: The Economic Collapse Experiment 💰⚔️
 
 ## Why Does Dot AI 3.0 Exist?
